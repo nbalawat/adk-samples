@@ -1,0 +1,48 @@
+[project]
+name = "commercial-banking-onboarding"
+version = "0.1.0"
+description = "Multi-agent system for commercial banking customer onboarding"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=1.8.0",
+    "google-cloud-aiplatform[adk,agent-engines]>=1.93.0",
+    "pydantic>=2.11.3",
+    "python-dotenv>=1.0.1",
+    "tabulate>=0.9.0",
+    "requests>=2.32.3",
+    "python-jose>=3.3.0",
+    "cryptography>=41.0.0",
+    "immutabledict>=4.2.1",
+    "pandas>=2.3.0",
+    "numpy>=2.3.1",
+    "sqlalchemy>=2.0.0",
+    "google-cloud-logging>=3.0.0",
+    "uvicorn>=0.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.26.0",
+    "pytest-mock>=3.14.0",
+    "black>=25.1.0",
+    "google-adk[eval]>=1.5.0",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+console_output_style = "progress"
+addopts = "-vv -s"
+testpaths = ["tests/"]
+log_level = "DEBUG"
+log_cli = true
+log_auto_indent = true
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+log_cli_format = "[%(asctime)s] %(levelname)s (%(funcName)s) \t [%(pathname)s:%(lineno)d] %(message)s"
+filterwarnings = [
+    "ignore::UserWarning",
+]

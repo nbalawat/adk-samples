@@ -1,0 +1,80 @@
+{
+  "test_config": {
+    "timeout_seconds": 180,
+    "max_retries": 3,
+    "parallel_execution": false,
+    "output_format": "detailed"
+  },
+  "evaluation_criteria": {
+    "response_time": {
+      "max_seconds": 60,
+      "weight": 0.1
+    },
+    "accuracy": {
+      "required_fields_present": 0.3,
+      "correct_decision_making": 0.4,
+      "data_consistency": 0.2
+    },
+    "compliance": {
+      "kyc_verification": 0.25,
+      "credit_assessment": 0.25, 
+      "compliance_screening": 0.25,
+      "risk_assessment": 0.25
+    }
+  },
+  "scoring": {
+    "excellent": {
+      "min_score": 90,
+      "description": "All requirements met, excellent performance"
+    },
+    "good": {
+      "min_score": 80,
+      "description": "Most requirements met, good performance"  
+    },
+    "acceptable": {
+      "min_score": 70,
+      "description": "Basic requirements met, acceptable performance"
+    },
+    "needs_improvement": {
+      "min_score": 0,
+      "description": "Some requirements not met, needs improvement"
+    }
+  },
+  "agent_specific_tests": {
+    "orchestrator": {
+      "tests": ["test_001", "test_002", "test_003"],
+      "focus_areas": ["workflow_coordination", "decision_making", "status_management"]
+    },
+    "kyc": {
+      "tests": ["test_001", "test_002", "test_003"],
+      "focus_areas": ["identity_verification", "pep_screening", "risk_assessment"]
+    },
+    "credit": {
+      "tests": ["test_001", "test_002"],
+      "focus_areas": ["credit_scoring", "risk_rating", "limit_determination"]
+    },
+    "compliance": {
+      "tests": ["test_001", "test_002", "test_003"],
+      "focus_areas": ["sanctions_screening", "aml_assessment", "regulatory_compliance"]
+    },
+    "document": {
+      "tests": ["test_004"],
+      "focus_areas": ["data_extraction", "validation", "authenticity_verification"]
+    },
+    "account_setup": {
+      "tests": ["test_005"], 
+      "focus_areas": ["account_creation", "service_configuration", "user_setup"]
+    }
+  },
+  "test_data_validation": {
+    "required_fields": {
+      "business_info": ["legal_name", "entity_type", "tax_id", "business_address"],
+      "beneficial_owners": ["first_name", "last_name", "ownership_percentage"]
+    },
+    "data_formats": {
+      "tax_id": "^\\d{2}-\\d{7}$",
+      "phone": "^\\d{3}-\\d{3}-\\d{4}$",
+      "email": "^[^@]+@[^@]+\\.[^@]+$"
+    }
+  }
+}

@@ -1,0 +1,339 @@
+[
+  {
+    "id": "test_001",
+    "name": "Standard Corporation Onboarding",
+    "description": "Test standard corporation onboarding with clean profile",
+    "input": {
+      "request": "I want to open a commercial banking account for TechStart Corporation. We're a Delaware corporation incorporated in 2022, in the software development industry. We have $2.5M annual revenue, 15 employees, and need checking, savings, and a line of credit. I'm John Smith, the CEO and 100% owner.",
+      "business_info": {
+        "legal_name": "TechStart Corporation",
+        "entity_type": "corporation",
+        "tax_id": "12-3456789",
+        "incorporation_date": "2022-01-15T00:00:00",
+        "business_address": {
+          "street": "123 Tech Ave",
+          "city": "Austin",
+          "state": "TX",
+          "zip_code": "78701",
+          "country": "US"
+        },
+        "industry_code": "541511",
+        "description": "Custom software development",
+        "annual_revenue": 2500000,
+        "phone": "512-555-0100",
+        "email": "john@techstart.com"
+      },
+      "beneficial_owners": [
+        {
+          "first_name": "John",
+          "last_name": "Smith",
+          "date_of_birth": "1985-06-15T00:00:00",
+          "ssn": "123-45-6789",
+          "ownership_percentage": 100,
+          "address": {
+            "street": "456 Oak St",
+            "city": "Austin", 
+            "state": "TX",
+            "zip_code": "78702",
+            "country": "US"
+          },
+          "phone": "512-555-0101",
+          "email": "john.smith@personal.com",
+          "is_control_person": true
+        }
+      ]
+    },
+    "expected_output": {
+      "application_created": true,
+      "kyc_verification": {
+        "business_verified": true,
+        "owners_verified": true,
+        "overall_score": ">= 80"
+      },
+      "credit_assessment": {
+        "credit_score": ">= 650",
+        "risk_rating": "low|medium",
+        "recommended_credit_limit": "> 0"
+      },
+      "compliance_screening": {
+        "sanctions_check_passed": true,
+        "aml_check_passed": true,
+        "compliance_score": ">= 80"
+      },
+      "final_decision": "approved",
+      "accounts_created": ["CHK", "SAV", "LOC"]
+    }
+  },
+  {
+    "id": "test_002", 
+    "name": "High-Risk Industry Onboarding",
+    "description": "Test onboarding for high-risk industry with enhanced screening",
+    "input": {
+      "request": "We want to open commercial accounts for CashAdvance LLC, a payday lending business. We're a Nevada LLC established in 2023, with $800K annual revenue. I'm Maria Rodriguez, managing member with 60% ownership, and Tom Wilson is the other member with 40%.",
+      "business_info": {
+        "legal_name": "CashAdvance LLC",
+        "entity_type": "llc",
+        "tax_id": "98-7654321",
+        "incorporation_date": "2023-03-01T00:00:00",
+        "business_address": {
+          "street": "789 Strip Blvd",
+          "city": "Las Vegas",
+          "state": "NV", 
+          "zip_code": "89101",
+          "country": "US"
+        },
+        "industry_code": "522291",
+        "description": "Payday lending and cash advance services",
+        "annual_revenue": 800000,
+        "phone": "702-555-0200",
+        "email": "info@cashadvance.com"
+      },
+      "beneficial_owners": [
+        {
+          "first_name": "Maria",
+          "last_name": "Rodriguez",
+          "date_of_birth": "1978-09-22T00:00:00",
+          "ssn": "987-65-4321",
+          "ownership_percentage": 60,
+          "address": {
+            "street": "321 Desert Rd",
+            "city": "Las Vegas",
+            "state": "NV",
+            "zip_code": "89102",
+            "country": "US"
+          },
+          "phone": "702-555-0201",
+          "email": "maria@cashadvance.com",
+          "is_control_person": true
+        },
+        {
+          "first_name": "Tom",
+          "last_name": "Wilson", 
+          "date_of_birth": "1982-11-08T00:00:00",
+          "ssn": "456-78-9012",
+          "ownership_percentage": 40,
+          "address": {
+            "street": "654 Canyon Dr",
+            "city": "Henderson",
+            "state": "NV",
+            "zip_code": "89052", 
+            "country": "US"
+          },
+          "phone": "702-555-0202",
+          "email": "tom@cashadvance.com",
+          "is_control_person": false
+        }
+      ]
+    },
+    "expected_output": {
+      "application_created": true,
+      "kyc_verification": {
+        "business_verified": true,
+        "owners_verified": true,
+        "manual_review_required": true
+      },
+      "credit_assessment": {
+        "risk_rating": "high|very_high",
+        "industry_risk_score": "> 50"
+      },
+      "compliance_screening": {
+        "aml_risk_level": "high|very_high", 
+        "enhanced_due_diligence_required": true
+      },
+      "final_decision": "manual_review|approved_with_conditions"
+    }
+  },
+  {
+    "id": "test_003",
+    "name": "Multi-Owner Partnership",
+    "description": "Test partnership with multiple beneficial owners",
+    "input": {
+      "request": "We're opening accounts for Green Energy Partners, a renewable energy consulting partnership. We have three equal partners: Sarah Johnson (environmental engineer), Mike Chen (business development), and Lisa Park (financial analyst). The partnership was formed in Texas in 2021.",
+      "business_info": {
+        "legal_name": "Green Energy Partners",
+        "entity_type": "partnership", 
+        "tax_id": "45-6789012",
+        "incorporation_date": "2021-09-15T00:00:00",
+        "business_address": {
+          "street": "555 Green Way",
+          "city": "Houston",
+          "state": "TX",
+          "zip_code": "77001",
+          "country": "US"
+        },
+        "industry_code": "541620",
+        "description": "Environmental consulting services",
+        "annual_revenue": 1200000,
+        "phone": "713-555-0300",
+        "email": "partners@greenenergy.com"
+      },
+      "beneficial_owners": [
+        {
+          "first_name": "Sarah",
+          "last_name": "Johnson",
+          "date_of_birth": "1980-04-12T00:00:00", 
+          "ssn": "234-56-7890",
+          "ownership_percentage": 33.33,
+          "address": {
+            "street": "111 Oak Lane",
+            "city": "Houston",
+            "state": "TX",
+            "zip_code": "77002",
+            "country": "US"
+          },
+          "phone": "713-555-0301",
+          "email": "sarah@greenenergy.com",
+          "is_control_person": true
+        },
+        {
+          "first_name": "Mike",
+          "last_name": "Chen",
+          "date_of_birth": "1983-07-25T00:00:00",
+          "ssn": "345-67-8901", 
+          "ownership_percentage": 33.33,
+          "address": {
+            "street": "222 Pine St",
+            "city": "Houston",
+            "state": "TX",
+            "zip_code": "77003",
+            "country": "US"
+          },
+          "phone": "713-555-0302",
+          "email": "mike@greenenergy.com",
+          "is_control_person": true
+        },
+        {
+          "first_name": "Lisa",
+          "last_name": "Park",
+          "date_of_birth": "1987-12-03T00:00:00",
+          "ssn": "567-89-0123",
+          "ownership_percentage": 33.34,
+          "address": {
+            "street": "333 Elm Ave",
+            "city": "Houston", 
+            "state": "TX",
+            "zip_code": "77004",
+            "country": "US"
+          },
+          "phone": "713-555-0303",
+          "email": "lisa@greenenergy.com",
+          "is_control_person": true
+        }
+      ]
+    },
+    "expected_output": {
+      "application_created": true,
+      "kyc_verification": {
+        "owners_verified": true,
+        "ownership_percentage_valid": true
+      },
+      "credit_assessment": {
+        "risk_rating": "low|medium"
+      },
+      "compliance_screening": {
+        "ownership_structure_risk": "medium"
+      },
+      "final_decision": "approved"
+    }
+  },
+  {
+    "id": "test_004",
+    "name": "Document Processing Test",
+    "description": "Test document processing and validation workflow",
+    "input": {
+      "request": "I need to process documents for MedTech Solutions Inc. I have their articles of incorporation, business license, tax ID certificate, and financial statements.",
+      "documents": [
+        {
+          "document_type": "articles_of_incorporation",
+          "file_name": "medtech_articles.pdf",
+          "document_data": {
+            "business_name": "MedTech Solutions Inc.",
+            "entity_type": "corporation",
+            "incorporation_date": "2020-05-10",
+            "state_of_incorporation": "California"
+          }
+        },
+        {
+          "document_type": "business_license",
+          "file_name": "business_license.pdf", 
+          "document_data": {
+            "license_number": "BL-2024-005678",
+            "business_name": "MedTech Solutions Inc.",
+            "license_type": "General Business License",
+            "issue_date": "2024-01-01",
+            "expiration_date": "2024-12-31"
+          }
+        },
+        {
+          "document_type": "tax_id_certificate",
+          "file_name": "tax_id.pdf",
+          "document_data": {
+            "tax_id": "77-8899001",
+            "business_name": "MedTech Solutions Inc.",
+            "entity_type": "corporation"
+          }
+        },
+        {
+          "document_type": "financial_statements",
+          "file_name": "financials_2023.pdf",
+          "document_data": {
+            "reporting_period": "2023-12-31",
+            "business_name": "MedTech Solutions Inc.",
+            "annual_revenue": 3500000,
+            "net_income": 420000,
+            "total_assets": 2800000,
+            "total_liabilities": 1200000
+          }
+        }
+      ]
+    },
+    "expected_output": {
+      "document_processing": {
+        "all_documents_valid": true,
+        "missing_documents": "[]",
+        "cross_validation": {
+          "is_consistent": true
+        }
+      },
+      "authenticity_verification": {
+        "all_authentic": true
+      }
+    }
+  },
+  {
+    "id": "test_005", 
+    "name": "Account Setup Completion",
+    "description": "Test final account setup and service configuration",
+    "input": {
+      "request": "Complete account setup for DataFlow Analytics LLC. They need checking, savings, line of credit ($250K limit), online banking for 3 users, wire transfers, ACH processing, and business debit cards.",
+      "approved_configuration": {
+        "account_types": ["CHK", "SAV", "LOC"],
+        "credit_limit": 250000,
+        "services": ["online_banking", "wire_transfers", "ach_processing"],
+        "materials": ["business_checks", "debit_cards", "welcome_kit"],
+        "users": [
+          {"name": "Alex Thompson", "role": "admin"},
+          {"name": "Jennifer Liu", "role": "user"},  
+          {"name": "Robert Davis", "role": "user"}
+        ]
+      }
+    },
+    "expected_output": {
+      "account_creation": {
+        "accounts_created": 3,
+        "account_numbers": "generated"
+      },
+      "services_setup": {
+        "services_activated": ">= 3"
+      },
+      "online_banking": {
+        "users_configured": 3,
+        "company_id": "generated"
+      },
+      "materials_order": {
+        "materials_ordered": ">= 3"
+      },
+      "setup_status": "completed|completed_with_pending_items"
+    }
+  }
+]

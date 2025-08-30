@@ -1,0 +1,7 @@
+google-adk>=1.8.0
+google-cloud-aiplatform[adk,agent-engines]>=1.93.0
+pydantic>=2.11.3
+python-dotenv>=1.0.1
+fastapi>=0.115.0
+uvicorn>=0.24.0
+google-cloud-logging>=3.0.0
