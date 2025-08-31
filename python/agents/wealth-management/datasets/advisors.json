@@ -1,0 +1,697 @@
+[
+  {
+    "advisor_id": "ADV001",
+    "first_name": "Nancy",
+    "last_name": "Sanchez",
+    "years_experience": 17,
+    "specialization": "Family Office",
+    "credentials": [
+      "CPWA",
+      "CLU"
+    ],
+    "location": "Boston, MA",
+    "client_capacity": 98,
+    "assets_under_management": 340477999
+  },
+  {
+    "advisor_id": "ADV002",
+    "first_name": "Thomas",
+    "last_name": "Wilson",
+    "years_experience": 23,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CFA",
+      "CFP",
+      "CLU"
+    ],
+    "location": "Washington, DC",
+    "client_capacity": 92,
+    "assets_under_management": 630491135
+  },
+  {
+    "advisor_id": "ADV003",
+    "first_name": "Jennifer",
+    "last_name": "Flores",
+    "years_experience": 25,
+    "specialization": "Corporate Benefits",
+    "credentials": [
+      "CIMA"
+    ],
+    "location": "Boston, MA",
+    "client_capacity": 89,
+    "assets_under_management": 209444372
+  },
+  {
+    "advisor_id": "ADV004",
+    "first_name": "Michelle",
+    "last_name": "Anderson",
+    "years_experience": 20,
+    "specialization": "Investment Management",
+    "credentials": [
+      "CFP",
+      "CFA",
+      "CPWA"
+    ],
+    "location": "Seattle, WA",
+    "client_capacity": 139,
+    "assets_under_management": 494857710
+  },
+  {
+    "advisor_id": "ADV005",
+    "first_name": "Anthony",
+    "last_name": "Lee",
+    "years_experience": 12,
+    "specialization": "Corporate Benefits",
+    "credentials": [
+      "CPWA"
+    ],
+    "location": "Seattle, WA",
+    "client_capacity": 121,
+    "assets_under_management": 460698321
+  },
+  {
+    "advisor_id": "ADV006",
+    "first_name": "Nancy",
+    "last_name": "Robinson",
+    "years_experience": 15,
+    "specialization": "Corporate Benefits",
+    "credentials": [
+      "ChFC"
+    ],
+    "location": "Nashville, TN",
+    "client_capacity": 85,
+    "assets_under_management": 411511217
+  },
+  {
+    "advisor_id": "ADV007",
+    "first_name": "David",
+    "last_name": "Moore",
+    "years_experience": 16,
+    "specialization": "Estate Planning",
+    "credentials": [
+      "CFA",
+      "CIMA",
+      "ChFC"
+    ],
+    "location": "Houston, TX",
+    "client_capacity": 98,
+    "assets_under_management": 444355167
+  },
+  {
+    "advisor_id": "ADV008",
+    "first_name": "Carol",
+    "last_name": "Rodriguez",
+    "years_experience": 3,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "CLU",
+      "ChFC"
+    ],
+    "location": "Nashville, TN",
+    "client_capacity": 98,
+    "assets_under_management": 318225668
+  },
+  {
+    "advisor_id": "ADV009",
+    "first_name": "Daniel",
+    "last_name": "Martinez",
+    "years_experience": 19,
+    "specialization": "Family Office",
+    "credentials": [
+      "JD",
+      "ChFC"
+    ],
+    "location": "Dallas, TX",
+    "client_capacity": 137,
+    "assets_under_management": 489659316
+  },
+  {
+    "advisor_id": "ADV010",
+    "first_name": "Karen",
+    "last_name": "Davis",
+    "years_experience": 8,
+    "specialization": "Family Office",
+    "credentials": [
+      "CPWA",
+      "CIMA"
+    ],
+    "location": "Baltimore, MD",
+    "client_capacity": 149,
+    "assets_under_management": 427759001
+  },
+  {
+    "advisor_id": "ADV011",
+    "first_name": "Jessica",
+    "last_name": "Ramirez",
+    "years_experience": 19,
+    "specialization": "Estate Planning",
+    "credentials": [
+      "CLU",
+      "CIMA"
+    ],
+    "location": "Las Vegas, NV",
+    "client_capacity": 121,
+    "assets_under_management": 471518987
+  },
+  {
+    "advisor_id": "ADV012",
+    "first_name": "Joshua",
+    "last_name": "Rodriguez",
+    "years_experience": 24,
+    "specialization": "Estate Planning",
+    "credentials": [
+      "CLU"
+    ],
+    "location": "San Diego, CA",
+    "client_capacity": 82,
+    "assets_under_management": 337374908
+  },
+  {
+    "advisor_id": "ADV013",
+    "first_name": "Ruth",
+    "last_name": "Taylor",
+    "years_experience": 10,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CPWA",
+      "CPA",
+      "CIMA"
+    ],
+    "location": "Dallas, TX",
+    "client_capacity": 99,
+    "assets_under_management": 707099413
+  },
+  {
+    "advisor_id": "ADV014",
+    "first_name": "Betty",
+    "last_name": "Flores",
+    "years_experience": 17,
+    "specialization": "Investment Management",
+    "credentials": [
+      "JD"
+    ],
+    "location": "San Antonio, TX",
+    "client_capacity": 95,
+    "assets_under_management": 504508016
+  },
+  {
+    "advisor_id": "ADV015",
+    "first_name": "Matthew",
+    "last_name": "Scott",
+    "years_experience": 22,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CIMA"
+    ],
+    "location": "Seattle, WA",
+    "client_capacity": 107,
+    "assets_under_management": 321236319
+  },
+  {
+    "advisor_id": "ADV016",
+    "first_name": "Jennifer",
+    "last_name": "Robinson",
+    "years_experience": 22,
+    "specialization": "Corporate Benefits",
+    "credentials": [
+      "CPA",
+      "CLU",
+      "CFA"
+    ],
+    "location": "San Antonio, TX",
+    "client_capacity": 100,
+    "assets_under_management": 506317861
+  },
+  {
+    "advisor_id": "ADV017",
+    "first_name": "Andrew",
+    "last_name": "Torres",
+    "years_experience": 7,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CPWA"
+    ],
+    "location": "Fort Worth, TX",
+    "client_capacity": 113,
+    "assets_under_management": 472586819
+  },
+  {
+    "advisor_id": "ADV018",
+    "first_name": "Paul",
+    "last_name": "Perez",
+    "years_experience": 29,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CLU",
+      "JD",
+      "CFP"
+    ],
+    "location": "San Francisco, CA",
+    "client_capacity": 107,
+    "assets_under_management": 383705192
+  },
+  {
+    "advisor_id": "ADV019",
+    "first_name": "Patricia",
+    "last_name": "Nguyen",
+    "years_experience": 17,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CFP",
+      "ChFC"
+    ],
+    "location": "Detroit, MI",
+    "client_capacity": 107,
+    "assets_under_management": 281527329
+  },
+  {
+    "advisor_id": "ADV020",
+    "first_name": "Jessica",
+    "last_name": "Williams",
+    "years_experience": 13,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CIMA",
+      "CFP",
+      "JD"
+    ],
+    "location": "Memphis, TN",
+    "client_capacity": 86,
+    "assets_under_management": 541680051
+  },
+  {
+    "advisor_id": "ADV021",
+    "first_name": "Christopher",
+    "last_name": "Perez",
+    "years_experience": 8,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CFP",
+      "CFA",
+      "CLU"
+    ],
+    "location": "Los Angeles, CA",
+    "client_capacity": 122,
+    "assets_under_management": 285517099
+  },
+  {
+    "advisor_id": "ADV022",
+    "first_name": "Michelle",
+    "last_name": "Jackson",
+    "years_experience": 10,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "CIMA",
+      "CPA"
+    ],
+    "location": "New York, NY",
+    "client_capacity": 124,
+    "assets_under_management": 617572236
+  },
+  {
+    "advisor_id": "ADV023",
+    "first_name": "Lisa",
+    "last_name": "Harris",
+    "years_experience": 25,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "ChFC",
+      "CPA"
+    ],
+    "location": "San Antonio, TX",
+    "client_capacity": 95,
+    "assets_under_management": 541878964
+  },
+  {
+    "advisor_id": "ADV024",
+    "first_name": "Susan",
+    "last_name": "Harris",
+    "years_experience": 9,
+    "specialization": "Corporate Benefits",
+    "credentials": [
+      "CIMA",
+      "CPWA",
+      "CPA"
+    ],
+    "location": "Indianapolis, IN",
+    "client_capacity": 113,
+    "assets_under_management": 157733312
+  },
+  {
+    "advisor_id": "ADV025",
+    "first_name": "Patricia",
+    "last_name": "Allen",
+    "years_experience": 26,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "CPWA",
+      "CIMA"
+    ],
+    "location": "Jacksonville, FL",
+    "client_capacity": 90,
+    "assets_under_management": 337125146
+  },
+  {
+    "advisor_id": "ADV026",
+    "first_name": "David",
+    "last_name": "Walker",
+    "years_experience": 9,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CFP",
+      "ChFC"
+    ],
+    "location": "Seattle, WA",
+    "client_capacity": 137,
+    "assets_under_management": 419026997
+  },
+  {
+    "advisor_id": "ADV027",
+    "first_name": "Carol",
+    "last_name": "Davis",
+    "years_experience": 6,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CFP"
+    ],
+    "location": "Seattle, WA",
+    "client_capacity": 126,
+    "assets_under_management": 425791684
+  },
+  {
+    "advisor_id": "ADV028",
+    "first_name": "John",
+    "last_name": "Johnson",
+    "years_experience": 18,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "ChFC",
+      "CFA"
+    ],
+    "location": "Philadelphia, PA",
+    "client_capacity": 82,
+    "assets_under_management": 321318536
+  },
+  {
+    "advisor_id": "ADV029",
+    "first_name": "Mary",
+    "last_name": "Hernandez",
+    "years_experience": 15,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CPA"
+    ],
+    "location": "Las Vegas, NV",
+    "client_capacity": 106,
+    "assets_under_management": 414768831
+  },
+  {
+    "advisor_id": "ADV030",
+    "first_name": "Betty",
+    "last_name": "Wright",
+    "years_experience": 6,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CLU",
+      "ChFC"
+    ],
+    "location": "Seattle, WA",
+    "client_capacity": 144,
+    "assets_under_management": 268459220
+  },
+  {
+    "advisor_id": "ADV031",
+    "first_name": "Joseph",
+    "last_name": "Rodriguez",
+    "years_experience": 5,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CPWA",
+      "CFP"
+    ],
+    "location": "Portland, OR",
+    "client_capacity": 113,
+    "assets_under_management": 391334609
+  },
+  {
+    "advisor_id": "ADV032",
+    "first_name": "Joseph",
+    "last_name": "Anderson",
+    "years_experience": 17,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "CLU",
+      "JD"
+    ],
+    "location": "Oklahoma City, OK",
+    "client_capacity": 105,
+    "assets_under_management": 369694243
+  },
+  {
+    "advisor_id": "ADV033",
+    "first_name": "Patricia",
+    "last_name": "Wright",
+    "years_experience": 11,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CFP",
+      "JD"
+    ],
+    "location": "Memphis, TN",
+    "client_capacity": 141,
+    "assets_under_management": 387072697
+  },
+  {
+    "advisor_id": "ADV034",
+    "first_name": "Linda",
+    "last_name": "Jones",
+    "years_experience": 30,
+    "specialization": "Family Office",
+    "credentials": [
+      "CFP"
+    ],
+    "location": "Las Vegas, NV",
+    "client_capacity": 97,
+    "assets_under_management": 372231021
+  },
+  {
+    "advisor_id": "ADV035",
+    "first_name": "Christopher",
+    "last_name": "Allen",
+    "years_experience": 26,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CFA",
+      "CLU",
+      "ChFC"
+    ],
+    "location": "Portland, OR",
+    "client_capacity": 112,
+    "assets_under_management": 373874024
+  },
+  {
+    "advisor_id": "ADV036",
+    "first_name": "Barbara",
+    "last_name": "Robinson",
+    "years_experience": 4,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "CPWA"
+    ],
+    "location": "Baltimore, MD",
+    "client_capacity": 113,
+    "assets_under_management": 462861246
+  },
+  {
+    "advisor_id": "ADV037",
+    "first_name": "William",
+    "last_name": "Jackson",
+    "years_experience": 7,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "CPWA",
+      "CFA"
+    ],
+    "location": "Indianapolis, IN",
+    "client_capacity": 134,
+    "assets_under_management": 386617659
+  },
+  {
+    "advisor_id": "ADV038",
+    "first_name": "Anthony",
+    "last_name": "Smith",
+    "years_experience": 20,
+    "specialization": "Tax Planning",
+    "credentials": [
+      "ChFC"
+    ],
+    "location": "Phoenix, AZ",
+    "client_capacity": 137,
+    "assets_under_management": 414622381
+  },
+  {
+    "advisor_id": "ADV039",
+    "first_name": "Barbara",
+    "last_name": "Allen",
+    "years_experience": 21,
+    "specialization": "Alternative Investments",
+    "credentials": [
+      "CFP",
+      "CIMA"
+    ],
+    "location": "Jacksonville, FL",
+    "client_capacity": 122,
+    "assets_under_management": 362288289
+  },
+  {
+    "advisor_id": "ADV040",
+    "first_name": "Linda",
+    "last_name": "Robinson",
+    "years_experience": 5,
+    "specialization": "Corporate Benefits",
+    "credentials": [
+      "CPWA",
+      "JD"
+    ],
+    "location": "San Antonio, TX",
+    "client_capacity": 134,
+    "assets_under_management": 535355533
+  },
+  {
+    "advisor_id": "ADV041",
+    "first_name": "Michelle",
+    "last_name": "Flores",
+    "years_experience": 22,
+    "specialization": "Estate Planning",
+    "credentials": [
+      "ChFC",
+      "JD"
+    ],
+    "location": "Detroit, MI",
+    "client_capacity": 148,
+    "assets_under_management": 434423609
+  },
+  {
+    "advisor_id": "ADV042",
+    "first_name": "Richard",
+    "last_name": "Thompson",
+    "years_experience": 12,
+    "specialization": "Estate Planning",
+    "credentials": [
+      "CFA",
+      "CIMA"
+    ],
+    "location": "Austin, TX",
+    "client_capacity": 143,
+    "assets_under_management": 367168579
+  },
+  {
+    "advisor_id": "ADV043",
+    "first_name": "Anthony",
+    "last_name": "Williams",
+    "years_experience": 15,
+    "specialization": "Retirement Planning",
+    "credentials": [
+      "ChFC"
+    ],
+    "location": "San Antonio, TX",
+    "client_capacity": 144,
+    "assets_under_management": 744861051
+  },
+  {
+    "advisor_id": "ADV044",
+    "first_name": "Nancy",
+    "last_name": "Lopez",
+    "years_experience": 22,
+    "specialization": "Risk Management",
+    "credentials": [
+      "ChFC"
+    ],
+    "location": "Philadelphia, PA",
+    "client_capacity": 123,
+    "assets_under_management": 516202362
+  },
+  {
+    "advisor_id": "ADV045",
+    "first_name": "Mary",
+    "last_name": "Jones",
+    "years_experience": 18,
+    "specialization": "Family Office",
+    "credentials": [
+      "CIMA"
+    ],
+    "location": "Houston, TX",
+    "client_capacity": 93,
+    "assets_under_management": 304584437
+  },
+  {
+    "advisor_id": "ADV046",
+    "first_name": "Joseph",
+    "last_name": "Allen",
+    "years_experience": 7,
+    "specialization": "Risk Management",
+    "credentials": [
+      "CFA"
+    ],
+    "location": "San Diego, CA",
+    "client_capacity": 118,
+    "assets_under_management": 587072637
+  },
+  {
+    "advisor_id": "ADV047",
+    "first_name": "Daniel",
+    "last_name": "Robinson",
+    "years_experience": 22,
+    "specialization": "Investment Management",
+    "credentials": [
+      "CIMA",
+      "ChFC"
+    ],
+    "location": "San Diego, CA",
+    "client_capacity": 121,
+    "assets_under_management": 477218158
+  },
+  {
+    "advisor_id": "ADV048",
+    "first_name": "Charles",
+    "last_name": "Jones",
+    "years_experience": 4,
+    "specialization": "Estate Planning",
+    "credentials": [
+      "CPWA",
+      "CIMA",
+      "JD"
+    ],
+    "location": "Portland, OR",
+    "client_capacity": 134,
+    "assets_under_management": 441026617
+  },
+  {
+    "advisor_id": "ADV049",
+    "first_name": "Joseph",
+    "last_name": "Taylor",
+    "years_experience": 7,
+    "specialization": "Risk Management",
+    "credentials": [
+      "ChFC"
+    ],
+    "location": "Los Angeles, CA",
+    "client_capacity": 127,
+    "assets_under_management": 216431531
+  },
+  {
+    "advisor_id": "ADV050",
+    "first_name": "Donald",
+    "last_name": "Brown",
+    "years_experience": 3,
+    "specialization": "Family Office",
+    "credentials": [
+      "CFP",
+      "ChFC",
+      "JD"
+    ],
+    "location": "Memphis, TN",
+    "client_capacity": 129,
+    "assets_under_management": 291899778
+  }
+]

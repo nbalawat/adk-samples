@@ -1,0 +1,20 @@
+Client Type,Product Category,Required Documents,Processing Time,Approval Level
+Micro/Small Business,Basic Banking (Deposits/Small Loans),"Business registration, Tax ID, Bank statements (6 months), Personal guarantor info",3-7 business days,Branch Manager/Credit Officer
+Micro/Small Business,Credit Products,"Financial statements (2 years), Tax returns, Business plan, Collateral documentation",2-4 weeks,Senior Credit Officer
+Micro/Small Business,Treasury Services,"Cash flow projections, Banking history, Treasury needs assessment",1-2 weeks,Treasury Manager
+SME ($2M-$10M),Basic Banking (Deposits/Small Loans),"Audited financials (2-3 years), Business registration, Tax compliance, Insurance certificates",1-2 weeks,Senior Credit Officer/Committee
+SME ($2M-$10M),Credit Products,"Audited financials (3-5 years), Detailed business plan, Market analysis, Legal opinions",4-6 weeks,Credit Committee
+SME ($2M-$10M),Treasury Services,"Treasury policies, Cash management needs, FX exposure analysis, Investment guidelines",2-3 weeks,Treasury Committee
+Lower Middle Market,Basic Banking (Deposits/Small Loans),"Audited financials (3-5 years), Legal structure docs, Insurance coverage, Management bios",2-3 weeks,Credit Committee
+Lower Middle Market,Credit Products,"Comprehensive financial package, Industry analysis, Covenant compliance, Environmental assessments",6-10 weeks,Senior Credit Committee
+Lower Middle Market,Treasury Services,"Treasury management policies, Liquidity management plan, Investment policy statements",3-4 weeks,Asset/Liability Committee
+Core Middle Market,Basic Banking (Deposits/Small Loans),"Audited financials (5+ years), Detailed corporate structure, Board resolutions, Rating agency reports",3-4 weeks,Executive Credit Committee
+Core Middle Market,Credit Products,"Syndicated loan documentation, Detailed financial models, Industry benchmarking, Legal opinions",8-16 weeks,Board Credit Committee
+Core Middle Market,Treasury Services,"Complex treasury policies, Risk management frameworks, Investment committee charters",4-6 weeks,Executive Committee
+Large Corporate/Enterprise,Basic Banking (Deposits/Small Loans),"Extensive financial documentation, Global structure charts, Regulatory filings, Credit ratings",4-6 weeks,Board Credit Committee
+Large Corporate/Enterprise,Credit Products,"Complex credit documentation, Cross-default provisions, Intercreditor agreements",12-20+ weeks,Board of Directors
+Large Corporate/Enterprise,Treasury/Capital Markets,"Capital adequacy reports, Market risk disclosures, Trading policies, Derivatives documentation",6-12 weeks,Board of Directors
+Financial Institutions,Correspondent Banking,"Regulatory capital reports, Compliance certifications, Operational risk assessments",8-16 weeks,Specialized Committee
+Financial Institutions,Wholesale Services,"Balance sheet analysis, Liquidity stress testing, Regulatory relationship confirmations",6-12 weeks,Executive Committee
+Government/Public Sector,Public Finance,"Municipal financial statements, Bond ratings, Debt service coverage, Legal opinions",4-8 weeks,Public Finance Committee
+Non-Profit Organizations,Specialized Services,"IRS determination letters, Audited financials, Grant documentation, Endowment policies",2-4 weeks,Specialized Committee

@@ -1,0 +1,20 @@
+Requirement Category,Specific Requirement,New Client - Low Risk,New Client - Medium Risk,New Client - High Risk,Existing Client - Regular Review,Existing Client - Triggered Review
+Customer Identification Program (CIP),Government-issued ID verification,Required - Digital/Manual,Required - Enhanced verification,Required - Multiple verification methods,Reconfirm annually,Enhanced re-verification
+Customer Identification Program (CIP),Address verification,Required - Utility bill/Bank statement,Required - Multiple sources,Required - Independent verification,Reconfirm annually,Enhanced re-verification
+Customer Identification Program (CIP),Date of birth verification,Required - ID document,Required - Enhanced checks,Required - Biometric verification,Reconfirm at material changes,Reconfirm if flagged
+Customer Identification Program (CIP),SSN/TIN verification,Required - Tax documents,Required - Tax verification,Required - Cross-referenced verification,Reconfirm at changes,Reconfirm if flagged
+Basic Customer Due Diligence (CDD),Business registration documents,Required - Certificate/Registration,Required - Detailed review,Required - Comprehensive review,Update as needed,Comprehensive update
+Basic Customer Due Diligence (CDD),Articles of incorporation/partnership,Required - Filing documents,Required - Certified copies,Required - Notarized copies,Update at material changes,Full document refresh
+Basic Customer Due Diligence (CDD),Business licenses/permits,Required - Current licenses,Required - Current + historical,Required - All applicable licenses,Annual update,Current license verification
+Basic Customer Due Diligence (CDD),Financial statements (recent),Required - Last 2-3 years,Required - 3-5 years audited,Required - 5+ years audited,Annual financial update,Current financial statements
+Enhanced Due Diligence (EDD),PEP screening,Automated screening,Enhanced screening + manual review,Comprehensive screening + investigation,Automated re-screening,Enhanced re-screening
+Enhanced Due Diligence (EDD),Sanctions list screening,Automated screening,Enhanced screening + manual review,Comprehensive screening + investigation,Automated re-screening,Enhanced re-screening
+Enhanced Due Diligence (EDD),Adverse media screening,Automated screening,Manual review required,Detailed investigation required,Automated re-screening,Manual investigation
+Beneficial Ownership,Ultimate Beneficial Owner (UBO) identification,Required if >25% ownership,Required for all beneficial owners,Required - Complete ownership chain,Update at ownership changes,Full beneficial ownership review
+Beneficial Ownership,Ownership structure documentation,Required - Org chart/Docs,Required - Detailed structure,Required - Full transparency,Update at structure changes,Complete structure review
+Source of Funds/Wealth,Source of funds documentation,Required - Bank statements,Required - Multiple sources,Required - Independent verification,Annual confirmation,Source verification
+Source of Funds/Wealth,Source of wealth verification,Standard documentation,Enhanced documentation,Extensive documentation,Periodic confirmation,Enhanced documentation
+Ongoing Monitoring,Transaction monitoring,System-based monitoring,Enhanced monitoring,Continuous monitoring,Ongoing transaction monitoring,Intensified monitoring
+Ongoing Monitoring,Periodic reviews,Annual review,Semi-annual review,Quarterly review,Risk-based review frequency,Immediate review
+Risk Assessment,Customer risk scoring,Automated scoring,Manual risk assessment,Senior management approval,Annual risk review,Risk reassessment
+Risk Assessment,Business risk assessment,Standard assessment,Detailed risk analysis,Comprehensive risk analysis,Risk-based assessment,Comprehensive re-evaluation

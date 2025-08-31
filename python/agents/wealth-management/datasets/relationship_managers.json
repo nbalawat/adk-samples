@@ -1,0 +1,202 @@
+[
+  {
+    "rm_id": "RM001",
+    "first_name": "Charles",
+    "last_name": "Jackson",
+    "years_experience": 9,
+    "territory": "West Coast",
+    "advisor_count": 31
+  },
+  {
+    "rm_id": "RM002",
+    "first_name": "Susan",
+    "last_name": "Jones",
+    "years_experience": 22,
+    "territory": "West Coast",
+    "advisor_count": 25
+  },
+  {
+    "rm_id": "RM003",
+    "first_name": "Susan",
+    "last_name": "Robinson",
+    "years_experience": 14,
+    "territory": "Southeast",
+    "advisor_count": 33
+  },
+  {
+    "rm_id": "RM004",
+    "first_name": "Richard",
+    "last_name": "Nguyen",
+    "years_experience": 6,
+    "territory": "Southwest",
+    "advisor_count": 26
+  },
+  {
+    "rm_id": "RM005",
+    "first_name": "Dorothy",
+    "last_name": "Davis",
+    "years_experience": 23,
+    "territory": "Southeast",
+    "advisor_count": 37
+  },
+  {
+    "rm_id": "RM006",
+    "first_name": "John",
+    "last_name": "Williams",
+    "years_experience": 23,
+    "territory": "Southwest",
+    "advisor_count": 31
+  },
+  {
+    "rm_id": "RM007",
+    "first_name": "Matthew",
+    "last_name": "Ramirez",
+    "years_experience": 9,
+    "territory": "Southwest",
+    "advisor_count": 33
+  },
+  {
+    "rm_id": "RM008",
+    "first_name": "Anthony",
+    "last_name": "Gonzalez",
+    "years_experience": 15,
+    "territory": "Southwest",
+    "advisor_count": 38
+  },
+  {
+    "rm_id": "RM009",
+    "first_name": "Andrew",
+    "last_name": "Miller",
+    "years_experience": 6,
+    "territory": "Southeast",
+    "advisor_count": 31
+  },
+  {
+    "rm_id": "RM010",
+    "first_name": "Carol",
+    "last_name": "Martin",
+    "years_experience": 13,
+    "territory": "Southeast",
+    "advisor_count": 31
+  },
+  {
+    "rm_id": "RM011",
+    "first_name": "Matthew",
+    "last_name": "Torres",
+    "years_experience": 11,
+    "territory": "West Coast",
+    "advisor_count": 36
+  },
+  {
+    "rm_id": "RM012",
+    "first_name": "Matthew",
+    "last_name": "Young",
+    "years_experience": 20,
+    "territory": "Northwest",
+    "advisor_count": 36
+  },
+  {
+    "rm_id": "RM013",
+    "first_name": "Ruth",
+    "last_name": "Lee",
+    "years_experience": 23,
+    "territory": "Northwest",
+    "advisor_count": 33
+  },
+  {
+    "rm_id": "RM014",
+    "first_name": "Linda",
+    "last_name": "White",
+    "years_experience": 17,
+    "territory": "Southwest",
+    "advisor_count": 36
+  },
+  {
+    "rm_id": "RM015",
+    "first_name": "Steven",
+    "last_name": "Garcia",
+    "years_experience": 12,
+    "territory": "West Coast",
+    "advisor_count": 38
+  },
+  {
+    "rm_id": "RM016",
+    "first_name": "Michelle",
+    "last_name": "Robinson",
+    "years_experience": 14,
+    "territory": "West Coast",
+    "advisor_count": 42
+  },
+  {
+    "rm_id": "RM017",
+    "first_name": "Betty",
+    "last_name": "King",
+    "years_experience": 5,
+    "territory": "West Coast",
+    "advisor_count": 36
+  },
+  {
+    "rm_id": "RM018",
+    "first_name": "Donald",
+    "last_name": "Hill",
+    "years_experience": 11,
+    "territory": "Midwest",
+    "advisor_count": 28
+  },
+  {
+    "rm_id": "RM019",
+    "first_name": "Linda",
+    "last_name": "Allen",
+    "years_experience": 10,
+    "territory": "Northeast",
+    "advisor_count": 27
+  },
+  {
+    "rm_id": "RM020",
+    "first_name": "Christopher",
+    "last_name": "Johnson",
+    "years_experience": 9,
+    "territory": "Southeast",
+    "advisor_count": 43
+  },
+  {
+    "rm_id": "RM021",
+    "first_name": "Sandra",
+    "last_name": "Smith",
+    "years_experience": 23,
+    "territory": "Midwest",
+    "advisor_count": 33
+  },
+  {
+    "rm_id": "RM022",
+    "first_name": "Patricia",
+    "last_name": "Smith",
+    "years_experience": 11,
+    "territory": "Southwest",
+    "advisor_count": 33
+  },
+  {
+    "rm_id": "RM023",
+    "first_name": "Carol",
+    "last_name": "Jones",
+    "years_experience": 16,
+    "territory": "Midwest",
+    "advisor_count": 34
+  },
+  {
+    "rm_id": "RM024",
+    "first_name": "Linda",
+    "last_name": "Smith",
+    "years_experience": 9,
+    "territory": "West Coast",
+    "advisor_count": 29
+  },
+  {
+    "rm_id": "RM025",
+    "first_name": "Matthew",
+    "last_name": "Nguyen",
+    "years_experience": 10,
+    "territory": "Southwest",
+    "advisor_count": 33
+  }
+]

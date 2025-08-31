@@ -1,0 +1,933 @@
+{
+  "summary": {
+    "total": 94,
+    "passed": 94,
+    "failed": 0,
+    "success_rate": 1.0,
+    "start_time": "2025-08-30T17:31:28.227571",
+    "end_time": "2025-08-30T17:32:05.163640",
+    "total_duration": 36.936069
+  },
+  "category_breakdown": {
+    "advisor": {
+      "total": 44,
+      "passed": 44
+    },
+    "client": {
+      "total": 28,
+      "passed": 28
+    },
+    "operations": {
+      "total": 22,
+      "passed": 22
+    }
+  },
+  "pattern_breakdown": {
+    "sequential": {
+      "total": 32,
+      "passed": 32
+    },
+    "loop": {
+      "total": 19,
+      "passed": 19
+    },
+    "parallel": {
+      "total": 6,
+      "passed": 6
+    },
+    "event_driven": {
+      "total": 9,
+      "passed": 9
+    },
+    "scheduled": {
+      "total": 25,
+      "passed": 25
+    },
+    "master_orchestration": {
+      "total": 3,
+      "passed": 3
+    }
+  },
+  "performance": {
+    "average_execution_time": 0.40468927627038176,
+    "max_execution_time": 1.0839829444885254,
+    "total_execution_time": 24.686045852493287
+  },
+  "failed_tests": [],
+  "detailed_results": [
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV001",
+      "workflow_name": "Client Meeting Preparation and Follow-up",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.402848,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV001",
+      "workflow_name": "Client Meeting Preparation and Follow-up",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV001",
+      "workflow_name": "Client Meeting Preparation and Follow-up",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40248703956604004,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV002",
+      "workflow_name": "Portfolio Performance Review and Reporting",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.402204,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV002",
+      "workflow_name": "Portfolio Performance Review and Reporting",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV002",
+      "workflow_name": "Portfolio Performance Review and Reporting",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40467000007629395,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV003",
+      "workflow_name": "Risk Assessment and Management",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.606392,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV003",
+      "workflow_name": "Risk Assessment and Management",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV003",
+      "workflow_name": "Risk Assessment and Management",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 1.0839829444885254,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV004",
+      "workflow_name": "Investment Research and Recommendation",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.403601,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV004",
+      "workflow_name": "Investment Research and Recommendation",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV004",
+      "workflow_name": "Investment Research and Recommendation",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.4014279842376709,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV005",
+      "workflow_name": "Client Acquisition and Onboarding",
+      "pattern": "parallel",
+      "passed": true,
+      "execution_time": 0.051324,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV005",
+      "workflow_name": "Client Acquisition and Onboarding",
+      "pattern": "parallel",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV005",
+      "workflow_name": "Client Acquisition and Onboarding",
+      "pattern": "parallel",
+      "passed": true,
+      "execution_time": 0.050750017166137695,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV006",
+      "workflow_name": "Wealth Planning and Goal Tracking",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.403389,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV006",
+      "workflow_name": "Wealth Planning and Goal Tracking",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV006",
+      "workflow_name": "Wealth Planning and Goal Tracking",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.4021780490875244,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV007",
+      "workflow_name": "Market Volatility Response",
+      "pattern": "event_driven",
+      "passed": true,
+      "execution_time": 0.082855,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV007",
+      "workflow_name": "Market Volatility Response",
+      "pattern": "event_driven",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV007",
+      "workflow_name": "Market Volatility Response",
+      "pattern": "event_driven",
+      "passed": true,
+      "execution_time": 0.08349967002868652,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV008",
+      "workflow_name": "Regulatory Compliance Management",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.322688,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV008",
+      "workflow_name": "Regulatory Compliance Management",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV008",
+      "workflow_name": "Regulatory Compliance Management",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.3237149715423584,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV009",
+      "workflow_name": "Crisis Management and Communication",
+      "pattern": "event_driven",
+      "passed": true,
+      "execution_time": 0.082974,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV009",
+      "workflow_name": "Crisis Management and Communication",
+      "pattern": "event_driven",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV009",
+      "workflow_name": "Crisis Management and Communication",
+      "pattern": "event_driven",
+      "passed": true,
+      "execution_time": 0.08173894882202148,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV010",
+      "workflow_name": "Tax Optimization and Planning",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.323973,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV010",
+      "workflow_name": "Tax Optimization and Planning",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV010",
+      "workflow_name": "Tax Optimization and Planning",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.3227880001068115,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV011",
+      "workflow_name": "Alternative Investment Analysis",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.401187,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV011",
+      "workflow_name": "Alternative Investment Analysis",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV011",
+      "workflow_name": "Alternative Investment Analysis",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40581679344177246,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV012",
+      "workflow_name": "ESG Integration and Reporting",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.609906,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV012",
+      "workflow_name": "ESG Integration and Reporting",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV012",
+      "workflow_name": "ESG Integration and Reporting",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 1.0536248683929443,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV013",
+      "workflow_name": "Portfolio Rebalancing Workflows",
+      "pattern": "event_driven",
+      "passed": true,
+      "execution_time": 0.081657,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV013",
+      "workflow_name": "Portfolio Rebalancing Workflows",
+      "pattern": "event_driven",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV013",
+      "workflow_name": "Portfolio Rebalancing Workflows",
+      "pattern": "event_driven",
+      "passed": true,
+      "execution_time": 0.08591389656066895,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV014",
+      "workflow_name": "Client Education and Communication",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.321932,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV014",
+      "workflow_name": "Client Education and Communication",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "ADV015",
+      "workflow_name": "Business Development and Referrals",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.610687,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "ADV015",
+      "workflow_name": "Business Development and Referrals",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "ADV015",
+      "workflow_name": "Business Development and Referrals",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 1.0302481651306152,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI001",
+      "workflow_name": "Financial Planning Consultation",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.401855,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI001",
+      "workflow_name": "Financial Planning Consultation",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI001",
+      "workflow_name": "Financial Planning Consultation",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.4015350341796875,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI002",
+      "workflow_name": "Investment Goal Setting and Tracking",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.60647,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI002",
+      "workflow_name": "Investment Goal Setting and Tracking",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI002",
+      "workflow_name": "Investment Goal Setting and Tracking",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 1.0150260925292969,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI003",
+      "workflow_name": "Portfolio Review and Discussion",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.321768,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI003",
+      "workflow_name": "Portfolio Review and Discussion",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI003",
+      "workflow_name": "Portfolio Review and Discussion",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.32309389114379883,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI004",
+      "workflow_name": "Risk Tolerance Assessment",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.402131,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI004",
+      "workflow_name": "Risk Tolerance Assessment",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI005",
+      "workflow_name": "Market Education Sessions",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.323188,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI005",
+      "workflow_name": "Market Education Sessions",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI006",
+      "workflow_name": "Life Event Financial Planning",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.402893,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI006",
+      "workflow_name": "Life Event Financial Planning",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI006",
+      "workflow_name": "Life Event Financial Planning",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40270304679870605,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI007",
+      "workflow_name": "Retirement Planning Workshops",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.403001,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI007",
+      "workflow_name": "Retirement Planning Workshops",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI007",
+      "workflow_name": "Retirement Planning Workshops",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.4032320976257324,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI008",
+      "workflow_name": "Investment Performance Reviews",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.323011,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI008",
+      "workflow_name": "Investment Performance Reviews",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI008",
+      "workflow_name": "Investment Performance Reviews",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.3217959403991699,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI009",
+      "workflow_name": "Estate Planning Consultation",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.403926,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI009",
+      "workflow_name": "Estate Planning Consultation",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI009",
+      "workflow_name": "Estate Planning Consultation",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40254712104797363,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "CLI010",
+      "workflow_name": "Tax Planning Sessions",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.324304,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "CLI010",
+      "workflow_name": "Tax Planning Sessions",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "CLI010",
+      "workflow_name": "Tax Planning Sessions",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.3230020999908447,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS001",
+      "workflow_name": "Account Administration and Maintenance",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.605439,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS001",
+      "workflow_name": "Account Administration and Maintenance",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS002",
+      "workflow_name": "Trade Execution and Settlement",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40387,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS002",
+      "workflow_name": "Trade Execution and Settlement",
+      "pattern": "sequential",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "OPS002",
+      "workflow_name": "Trade Execution and Settlement",
+      "pattern": "sequential",
+      "passed": true,
+      "execution_time": 0.40211987495422363,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS003",
+      "workflow_name": "Reconciliation and Reporting",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.32161,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS003",
+      "workflow_name": "Reconciliation and Reporting",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "OPS003",
+      "workflow_name": "Reconciliation and Reporting",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.32362818717956543,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS004",
+      "workflow_name": "Compliance Monitoring",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.607477,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS004",
+      "workflow_name": "Compliance Monitoring",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "OPS004",
+      "workflow_name": "Compliance Monitoring",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 1.0154612064361572,
+      "threshold": 10.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS005",
+      "workflow_name": "Client Onboarding Operations",
+      "pattern": "parallel",
+      "passed": true,
+      "execution_time": 0.051358,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS005",
+      "workflow_name": "Client Onboarding Operations",
+      "pattern": "parallel",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "OPS005",
+      "workflow_name": "Client Onboarding Operations",
+      "pattern": "parallel",
+      "passed": true,
+      "execution_time": 0.0504610538482666,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS006",
+      "workflow_name": "Fee Calculation and Billing",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.323326,
+      "steps_completed": 4,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS006",
+      "workflow_name": "Fee Calculation and Billing",
+      "pattern": "scheduled",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "OPS006",
+      "workflow_name": "Fee Calculation and Billing",
+      "pattern": "scheduled",
+      "passed": true,
+      "execution_time": 0.32271599769592285,
+      "threshold": 5.0,
+      "within_threshold": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS007",
+      "workflow_name": "Document Management",
+      "pattern": "loop",
+      "passed": true,
+      "execution_time": 0.608578,
+      "steps_completed": 12,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS007",
+      "workflow_name": "Document Management",
+      "pattern": "loop",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "basic_functionality",
+      "workflow_id": "OPS008",
+      "workflow_name": "System Integration Management",
+      "pattern": "master_orchestration",
+      "passed": true,
+      "execution_time": 0.451952,
+      "steps_completed": 3,
+      "error": null
+    },
+    {
+      "test_type": "error_handling",
+      "workflow_id": "OPS008",
+      "workflow_name": "System Integration Management",
+      "pattern": "master_orchestration",
+      "passed": true,
+      "handled_gracefully": true
+    },
+    {
+      "test_type": "performance",
+      "workflow_id": "OPS008",
+      "workflow_name": "System Integration Management",
+      "pattern": "master_orchestration",
+      "passed": true,
+      "execution_time": 0.45210886001586914,
+      "threshold": 10.0,
+      "within_threshold": true
+    }
+  ]
+}

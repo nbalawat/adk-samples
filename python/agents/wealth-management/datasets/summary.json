@@ -1,0 +1,25 @@
+{
+  "generation_date": "2025-08-30T16:52:16.228648",
+  "total_clients": 1200,
+  "total_portfolios": 1200,
+  "total_advisors": 50,
+  "total_rms": 25,
+  "total_relationships": 1200,
+  "total_transactions": 1185,
+  "total_market_scenarios": 70,
+  "total_assets_under_management": 20981067287,
+  "wealth_tier_distribution": {
+    "High Net Worth": 507,
+    "Ultra High Net Worth": 205,
+    "Established": 204,
+    "Emerging": 125,
+    "Growing": 159
+  },
+  "risk_tolerance_distribution": {
+    "Moderate Conservative": 235,
+    "Moderate Aggressive": 231,
+    "Moderate": 273,
+    "Conservative": 245,
+    "Aggressive": 216
+  }
+}

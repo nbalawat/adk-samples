@@ -1,13 +1,50 @@
 {
-  "service_url": "https://wealth-management-305896968831.us-central1.run.app",
+  "service_url": "https://wealth-management-agent-305896968831.us-central1.run.app",
+  "service_name": "wealth-management-agent",
   "project_id": "agentic-experiments",
   "region": "us-central1",
-  "service_name": "wealth-management",
-  "image_url": "us-central1-docker.pkg.dev/agentic-experiments/adk-agents/wealth-management",
-  "deployment_type": "cloud_run",
-  "revision": "wealth-management-00003-zw8",
-  "traffic_allocation": "100%",
-  "deployment_date": "2025-08-30T18:20:04Z",
-  "dependencies_fixed": "numpy, scipy, pandas added to requirements.txt",
-  "status": "WORKING"
+  "deployed_at": "2025-08-30T24:15:00Z",
+  "status": "deployed_with_authentication",
+  "deployment_method": "gcloud run deploy --source",
+  "service_account": "rag-pipeline-deploy-dev@agentic-experiments.iam.gserviceaccount.com",
+  "environment_variables": {
+    "GOOGLE_CLOUD_PROJECT": "agentic-experiments",
+    "VERTEX_AI_LOCATION": "us-central1", 
+    "GOOGLE_GENAI_USE_VERTEXAI": "true",
+    "SERVE_WEB_INTERFACE": "true"
+  },
+  "configuration": {
+    "memory": "2Gi",
+    "cpu": "2",
+    "timeout": "900s",
+    "allow_unauthenticated": true
+  },
+  "endpoints": {
+    "web_interface": "https://wealth-management-agent-305896968831.us-central1.run.app/dev-ui/",
+    "api_docs": "https://wealth-management-agent-305896968831.us-central1.run.app/docs",
+    "root": "https://wealth-management-agent-305896968831.us-central1.run.app/"
+  },
+  "features": [
+    "33 wealth management workflows across all categories",
+    "23 client accounts with realistic portfolio data",
+    "Complete mock API ecosystem with financial data",
+    "ADK web interface for interactive testing",
+    "All test documentation and sample queries included",
+    "Proper Vertex AI authentication with service account",
+    "Source-based deployment with gcloud"
+  ],
+  "data_included": {
+    "client_accounts": ["TEST001", "DEMO001", "CLIENT001", "WM100001-WM100020"],
+    "workflow_categories": ["Advisor (15)", "Client (10)", "Operations (8)"],
+    "mock_apis": ["Custodian", "Market Data", "Trading", "CRM", "Compliance", "Tax Service"],
+    "documentation": ["WORKFLOW_TEST_QUESTIONS.md", "SAMPLE_CLIENT_IDS.md", "comprehensive test plans"]
+  },
+  "sample_queries": [
+    "Show me portfolio summary for client TEST001",
+    "Conduct risk assessment for client WM100004", 
+    "Generate investment research for WM100006",
+    "Help me prepare for quarterly review meeting with client WM100015",
+    "Market volatility response plan",
+    "Generate ESG analysis for client CLIENT001's portfolio"
+  ]
 }

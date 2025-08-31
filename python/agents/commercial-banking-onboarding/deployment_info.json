@@ -1,0 +1,28 @@
+{
+  "service_url": "https://enhanced-commercial-banking-v4uibzu6ga-uc.a.run.app",
+  "project_id": "agentic-experiments",
+  "region": "us-central1", 
+  "service_name": "enhanced-commercial-banking",
+  "deployment_type": "cloud_run",
+  "deployment_timestamp": "2025-08-31T04:40:00Z",
+  "revision": "enhanced-commercial-banking-00004-dtw",
+  "status": "PRODUCTION_READY",
+  "issues_resolved": [
+    "Type annotation compatibility errors",
+    "Optional parameter type mismatches", 
+    "Function reference errors"
+  ],
+  "system_type": "enhanced_commercial_banking_onboarding",
+  "capabilities": [
+    "Multi-persona workflow classification (4 personas)",
+    "Enhanced agent orchestration with ADK integration", 
+    "Comprehensive memory and context management",
+    "Client experience tools and portal management",
+    "Mock API integration for banking operations",
+    "Business logic validation and processing"
+  ],
+  "personas_supported": ["operations", "client", "compliance", "legal"],
+  "agent_tools_count": 25,
+  "sub_agents_count": 5,
+  "workflow_patterns": ["parallel", "sequential", "loop"]
+}

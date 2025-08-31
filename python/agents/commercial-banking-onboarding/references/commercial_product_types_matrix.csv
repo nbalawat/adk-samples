@@ -1,0 +1,14 @@
+Product Category,Specific Product,Target Client,Complexity
+Deposit Products,Business Checking Accounts,All segments,Low
+Deposit Products,Savings/Money Market,SME to Enterprise,Low
+Deposit Products,Certificates of Deposit,SME to Enterprise,Low
+Credit Products,Term Loans,SME to Enterprise,Medium
+Credit Products,Lines of Credit/Revolving Credit,Small Business to Enterprise,Medium
+Credit Products,Asset-Based Lending,Middle Market to Enterprise,High
+Credit Products,Commercial Real Estate Loans,SME to Enterprise,High
+Treasury Management,Cash Management Services,Middle Market to Enterprise,High
+Treasury Management,Payment Processing,All segments,Medium
+Treasury Management,Foreign Exchange Services,Middle Market to Enterprise,Medium
+Trade Finance,"Letters of Credit, Documentary Collections",SME to Enterprise,High
+Investment Services,"Investment Management, Custody",Middle Market to Enterprise,High
+Advisory Services,"M&A Advisory, Capital Markets",Large Corporate/Enterprise,Very High

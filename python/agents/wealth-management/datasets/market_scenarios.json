@@ -1,0 +1,1142 @@
+[
+  {
+    "scenario_id": "MKT001",
+    "event_type": "market_volatility",
+    "date": "2025-01-20",
+    "severity": "Low",
+    "vix_level": 32.975431429655,
+    "market_decline": 0.012245944026320094,
+    "duration_days": 20,
+    "sectors_affected": [
+      "Materials",
+      "Utilities"
+    ],
+    "client_impact_count": 307,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT002",
+    "event_type": "market_volatility",
+    "date": "2025-05-17",
+    "severity": "Extreme",
+    "vix_level": 23.571265664954943,
+    "market_decline": 0.14692380294803672,
+    "duration_days": 29,
+    "sectors_affected": [
+      "Financial",
+      "Technology"
+    ],
+    "client_impact_count": 146,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT003",
+    "event_type": "market_volatility",
+    "date": "2025-08-07",
+    "severity": "Extreme",
+    "vix_level": 23.455839824190903,
+    "market_decline": 0.19725935490122362,
+    "duration_days": 25,
+    "sectors_affected": [
+      "Industrials",
+      "Utilities",
+      "Energy",
+      "Healthcare",
+      "Technology"
+    ],
+    "client_impact_count": 555,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT004",
+    "event_type": "market_volatility",
+    "date": "2025-04-04",
+    "severity": "Medium",
+    "vix_level": 40.83557909217481,
+    "market_decline": 0.09030506413239897,
+    "duration_days": 23,
+    "sectors_affected": [
+      "Utilities",
+      "Consumer Discretionary",
+      "Real Estate",
+      "Healthcare",
+      "Financial"
+    ],
+    "client_impact_count": 140,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT005",
+    "event_type": "market_volatility",
+    "date": "2025-02-09",
+    "severity": "Extreme",
+    "vix_level": 42.01638121284162,
+    "market_decline": 0.24367029656690284,
+    "duration_days": 10,
+    "sectors_affected": [
+      "Industrials",
+      "Consumer Discretionary",
+      "Financial",
+      "Materials",
+      "Technology",
+      "Healthcare"
+    ],
+    "client_impact_count": 83,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT006",
+    "event_type": "market_volatility",
+    "date": "2025-05-09",
+    "severity": "Extreme",
+    "vix_level": 15.100582185840334,
+    "market_decline": 0.19123670587897776,
+    "duration_days": 14,
+    "sectors_affected": [
+      "Healthcare",
+      "Energy",
+      "Utilities",
+      "Financial",
+      "Technology"
+    ],
+    "client_impact_count": 106,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT007",
+    "event_type": "market_volatility",
+    "date": "2025-06-07",
+    "severity": "High",
+    "vix_level": 29.66721569005455,
+    "market_decline": 0.07649745193103255,
+    "duration_days": 8,
+    "sectors_affected": [
+      "Utilities",
+      "Consumer Discretionary",
+      "Technology",
+      "Financial",
+      "Energy",
+      "Materials"
+    ],
+    "client_impact_count": 283,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT008",
+    "event_type": "market_volatility",
+    "date": "2025-03-01",
+    "severity": "High",
+    "vix_level": 31.901067434876243,
+    "market_decline": 0.11012055834983264,
+    "duration_days": 4,
+    "sectors_affected": [
+      "Financial",
+      "Industrials",
+      "Utilities",
+      "Energy"
+    ],
+    "client_impact_count": 169,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT009",
+    "event_type": "market_volatility",
+    "date": "2025-08-21",
+    "severity": "Extreme",
+    "vix_level": 19.60954124607168,
+    "market_decline": 0.24794437417137913,
+    "duration_days": 27,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Utilities",
+      "Real Estate",
+      "Healthcare",
+      "Technology"
+    ],
+    "client_impact_count": 665,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT010",
+    "event_type": "market_volatility",
+    "date": "2025-02-15",
+    "severity": "Extreme",
+    "vix_level": 39.445103502922095,
+    "market_decline": 0.21763200415430672,
+    "duration_days": 19,
+    "sectors_affected": [
+      "Technology",
+      "Industrials"
+    ],
+    "client_impact_count": 523,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT011",
+    "event_type": "market_volatility",
+    "date": "2025-01-30",
+    "severity": "Extreme",
+    "vix_level": 26.698325945825353,
+    "market_decline": 0.2121543893203576,
+    "duration_days": 28,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Utilities"
+    ],
+    "client_impact_count": 368,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT012",
+    "event_type": "market_volatility",
+    "date": "2024-12-29",
+    "severity": "Medium",
+    "vix_level": 20.673032003209258,
+    "market_decline": 0.05501451326109111,
+    "duration_days": 20,
+    "sectors_affected": [
+      "Real Estate",
+      "Financial",
+      "Healthcare",
+      "Materials",
+      "Industrials",
+      "Technology"
+    ],
+    "client_impact_count": 157,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT013",
+    "event_type": "market_volatility",
+    "date": "2024-12-31",
+    "severity": "High",
+    "vix_level": 27.690315511765043,
+    "market_decline": 0.17556706354109128,
+    "duration_days": 23,
+    "sectors_affected": [
+      "Real Estate",
+      "Industrials",
+      "Consumer Discretionary"
+    ],
+    "client_impact_count": 648,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT014",
+    "event_type": "market_volatility",
+    "date": "2024-08-31",
+    "severity": "Low",
+    "vix_level": 25.34703288283788,
+    "market_decline": 0.005887498521651741,
+    "duration_days": 7,
+    "sectors_affected": [
+      "Utilities",
+      "Real Estate",
+      "Technology"
+    ],
+    "client_impact_count": 711,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT015",
+    "event_type": "market_volatility",
+    "date": "2025-06-20",
+    "severity": "Extreme",
+    "vix_level": 15.046564360566334,
+    "market_decline": 0.23050311197360446,
+    "duration_days": 28,
+    "sectors_affected": [
+      "Materials",
+      "Utilities",
+      "Healthcare",
+      "Real Estate"
+    ],
+    "client_impact_count": 196,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT016",
+    "event_type": "market_volatility",
+    "date": "2025-08-12",
+    "severity": "Extreme",
+    "vix_level": 38.03796480521065,
+    "market_decline": 0.03689562949694791,
+    "duration_days": 2,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Real Estate",
+      "Energy",
+      "Materials"
+    ],
+    "client_impact_count": 736,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT017",
+    "event_type": "market_volatility",
+    "date": "2025-07-12",
+    "severity": "Low",
+    "vix_level": 12.299119105258848,
+    "market_decline": 0.22065197274294762,
+    "duration_days": 5,
+    "sectors_affected": [
+      "Real Estate",
+      "Energy",
+      "Financial",
+      "Materials"
+    ],
+    "client_impact_count": 281,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT018",
+    "event_type": "market_volatility",
+    "date": "2025-04-21",
+    "severity": "High",
+    "vix_level": 21.235774194980703,
+    "market_decline": 0.10110867522001979,
+    "duration_days": 29,
+    "sectors_affected": [
+      "Utilities",
+      "Consumer Discretionary",
+      "Financial",
+      "Energy"
+    ],
+    "client_impact_count": 739,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT019",
+    "event_type": "market_volatility",
+    "date": "2024-09-29",
+    "severity": "Medium",
+    "vix_level": 14.757197184255965,
+    "market_decline": 0.15860490078747272,
+    "duration_days": 27,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Real Estate",
+      "Utilities",
+      "Energy",
+      "Industrials"
+    ],
+    "client_impact_count": 73,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT020",
+    "event_type": "market_volatility",
+    "date": "2024-10-26",
+    "severity": "Extreme",
+    "vix_level": 29.8370381945884,
+    "market_decline": 0.09417529981661035,
+    "duration_days": 21,
+    "sectors_affected": [
+      "Materials",
+      "Consumer Discretionary",
+      "Healthcare",
+      "Financial"
+    ],
+    "client_impact_count": 580,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT021",
+    "event_type": "market_volatility",
+    "date": "2025-04-21",
+    "severity": "High",
+    "vix_level": 40.528474004922955,
+    "market_decline": 0.09569472868525053,
+    "duration_days": 21,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Materials"
+    ],
+    "client_impact_count": 601,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT022",
+    "event_type": "market_volatility",
+    "date": "2025-03-08",
+    "severity": "High",
+    "vix_level": 27.071949502625476,
+    "market_decline": 0.06068281337707199,
+    "duration_days": 30,
+    "sectors_affected": [
+      "Technology",
+      "Real Estate",
+      "Energy",
+      "Consumer Discretionary",
+      "Utilities",
+      "Materials"
+    ],
+    "client_impact_count": 514,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT023",
+    "event_type": "market_volatility",
+    "date": "2025-08-13",
+    "severity": "High",
+    "vix_level": 35.93140773416236,
+    "market_decline": 0.003211943811057133,
+    "duration_days": 6,
+    "sectors_affected": [
+      "Healthcare",
+      "Real Estate",
+      "Energy",
+      "Technology",
+      "Materials",
+      "Industrials"
+    ],
+    "client_impact_count": 63,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT024",
+    "event_type": "market_volatility",
+    "date": "2025-06-29",
+    "severity": "Low",
+    "vix_level": 19.195369919993386,
+    "market_decline": 0.03705086980800679,
+    "duration_days": 4,
+    "sectors_affected": [
+      "Healthcare",
+      "Consumer Discretionary",
+      "Utilities",
+      "Real Estate",
+      "Energy",
+      "Industrials"
+    ],
+    "client_impact_count": 663,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT025",
+    "event_type": "market_volatility",
+    "date": "2024-10-09",
+    "severity": "High",
+    "vix_level": 31.268824232218574,
+    "market_decline": 0.013337350361738831,
+    "duration_days": 23,
+    "sectors_affected": [
+      "Healthcare",
+      "Financial",
+      "Consumer Discretionary",
+      "Industrials",
+      "Utilities",
+      "Energy"
+    ],
+    "client_impact_count": 681,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT026",
+    "event_type": "market_volatility",
+    "date": "2024-12-09",
+    "severity": "Low",
+    "vix_level": 23.850669861942006,
+    "market_decline": 0.055184367402431045,
+    "duration_days": 1,
+    "sectors_affected": [
+      "Real Estate",
+      "Healthcare",
+      "Financial",
+      "Energy",
+      "Materials",
+      "Industrials"
+    ],
+    "client_impact_count": 214,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT027",
+    "event_type": "market_volatility",
+    "date": "2025-05-05",
+    "severity": "Low",
+    "vix_level": 41.23006313354609,
+    "market_decline": 0.088983711762042,
+    "duration_days": 10,
+    "sectors_affected": [
+      "Utilities",
+      "Energy",
+      "Technology",
+      "Industrials",
+      "Healthcare",
+      "Materials"
+    ],
+    "client_impact_count": 351,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT028",
+    "event_type": "market_volatility",
+    "date": "2025-08-05",
+    "severity": "Medium",
+    "vix_level": 19.825016452287528,
+    "market_decline": 0.24015500082050292,
+    "duration_days": 28,
+    "sectors_affected": [
+      "Industrials",
+      "Energy",
+      "Materials",
+      "Utilities"
+    ],
+    "client_impact_count": 583,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT029",
+    "event_type": "market_volatility",
+    "date": "2024-11-13",
+    "severity": "High",
+    "vix_level": 23.682539218854625,
+    "market_decline": 0.1397966852727105,
+    "duration_days": 26,
+    "sectors_affected": [
+      "Healthcare",
+      "Financial",
+      "Consumer Discretionary"
+    ],
+    "client_impact_count": 490,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT030",
+    "event_type": "market_volatility",
+    "date": "2025-02-11",
+    "severity": "Low",
+    "vix_level": 14.528199208192897,
+    "market_decline": 0.00968173450822396,
+    "duration_days": 12,
+    "sectors_affected": [
+      "Real Estate",
+      "Consumer Discretionary",
+      "Energy",
+      "Materials",
+      "Industrials"
+    ],
+    "client_impact_count": 424,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT031",
+    "event_type": "market_volatility",
+    "date": "2025-04-26",
+    "severity": "Low",
+    "vix_level": 12.581390489418933,
+    "market_decline": 0.034284255199688,
+    "duration_days": 21,
+    "sectors_affected": [
+      "Real Estate",
+      "Technology"
+    ],
+    "client_impact_count": 506,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT032",
+    "event_type": "market_volatility",
+    "date": "2025-01-17",
+    "severity": "Medium",
+    "vix_level": 28.773233432169906,
+    "market_decline": 0.14985594884216447,
+    "duration_days": 3,
+    "sectors_affected": [
+      "Healthcare",
+      "Energy",
+      "Utilities"
+    ],
+    "client_impact_count": 748,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT033",
+    "event_type": "market_volatility",
+    "date": "2025-08-06",
+    "severity": "Extreme",
+    "vix_level": 26.656995925077517,
+    "market_decline": 0.06957676739268462,
+    "duration_days": 16,
+    "sectors_affected": [
+      "Energy",
+      "Technology",
+      "Industrials",
+      "Consumer Discretionary",
+      "Utilities",
+      "Healthcare"
+    ],
+    "client_impact_count": 733,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT034",
+    "event_type": "market_volatility",
+    "date": "2025-01-01",
+    "severity": "High",
+    "vix_level": 39.76764814767532,
+    "market_decline": 0.21751777027431754,
+    "duration_days": 6,
+    "sectors_affected": [
+      "Industrials",
+      "Real Estate",
+      "Financial",
+      "Consumer Discretionary",
+      "Healthcare"
+    ],
+    "client_impact_count": 485,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT035",
+    "event_type": "market_volatility",
+    "date": "2025-02-13",
+    "severity": "Medium",
+    "vix_level": 39.63293722609109,
+    "market_decline": 0.11955974719123111,
+    "duration_days": 1,
+    "sectors_affected": [
+      "Healthcare",
+      "Industrials"
+    ],
+    "client_impact_count": 223,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT036",
+    "event_type": "market_volatility",
+    "date": "2024-12-23",
+    "severity": "High",
+    "vix_level": 37.0587795421448,
+    "market_decline": 0.11020563848407752,
+    "duration_days": 7,
+    "sectors_affected": [
+      "Materials",
+      "Consumer Discretionary",
+      "Energy",
+      "Technology",
+      "Financial",
+      "Real Estate"
+    ],
+    "client_impact_count": 106,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT037",
+    "event_type": "market_volatility",
+    "date": "2024-11-10",
+    "severity": "Low",
+    "vix_level": 27.1332579651244,
+    "market_decline": 0.2434099463532073,
+    "duration_days": 17,
+    "sectors_affected": [
+      "Healthcare",
+      "Energy",
+      "Financial",
+      "Industrials",
+      "Consumer Discretionary",
+      "Technology"
+    ],
+    "client_impact_count": 399,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT038",
+    "event_type": "market_volatility",
+    "date": "2025-01-21",
+    "severity": "High",
+    "vix_level": 16.42558169783806,
+    "market_decline": 0.2335152976419837,
+    "duration_days": 2,
+    "sectors_affected": [
+      "Real Estate",
+      "Healthcare",
+      "Utilities",
+      "Industrials",
+      "Consumer Discretionary",
+      "Materials"
+    ],
+    "client_impact_count": 777,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT039",
+    "event_type": "market_volatility",
+    "date": "2025-02-25",
+    "severity": "Medium",
+    "vix_level": 28.726255142379497,
+    "market_decline": 0.18983423932734048,
+    "duration_days": 26,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Real Estate",
+      "Healthcare",
+      "Financial"
+    ],
+    "client_impact_count": 768,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT040",
+    "event_type": "market_volatility",
+    "date": "2025-06-23",
+    "severity": "Medium",
+    "vix_level": 40.08518535842469,
+    "market_decline": 0.05854531123636214,
+    "duration_days": 17,
+    "sectors_affected": [
+      "Materials",
+      "Utilities",
+      "Healthcare",
+      "Technology",
+      "Industrials",
+      "Consumer Discretionary"
+    ],
+    "client_impact_count": 638,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT041",
+    "event_type": "market_volatility",
+    "date": "2024-09-18",
+    "severity": "High",
+    "vix_level": 33.753349835208056,
+    "market_decline": 0.12473517762538319,
+    "duration_days": 29,
+    "sectors_affected": [
+      "Real Estate",
+      "Industrials",
+      "Utilities",
+      "Consumer Discretionary",
+      "Financial",
+      "Healthcare"
+    ],
+    "client_impact_count": 334,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT042",
+    "event_type": "market_volatility",
+    "date": "2025-04-16",
+    "severity": "Extreme",
+    "vix_level": 12.372086793658001,
+    "market_decline": 0.1411707832627784,
+    "duration_days": 30,
+    "sectors_affected": [
+      "Technology",
+      "Real Estate",
+      "Industrials",
+      "Healthcare",
+      "Materials",
+      "Financial"
+    ],
+    "client_impact_count": 193,
+    "advisor_actions_required": true,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT043",
+    "event_type": "market_volatility",
+    "date": "2025-03-01",
+    "severity": "Low",
+    "vix_level": 13.012464942614308,
+    "market_decline": 0.02311874615588541,
+    "duration_days": 27,
+    "sectors_affected": [
+      "Technology",
+      "Consumer Discretionary"
+    ],
+    "client_impact_count": 109,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT044",
+    "event_type": "market_volatility",
+    "date": "2025-05-18",
+    "severity": "Extreme",
+    "vix_level": 16.153076770902565,
+    "market_decline": 0.13216900228825443,
+    "duration_days": 1,
+    "sectors_affected": [
+      "Healthcare",
+      "Financial"
+    ],
+    "client_impact_count": 343,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT045",
+    "event_type": "market_volatility",
+    "date": "2025-06-08",
+    "severity": "Extreme",
+    "vix_level": 31.396688618929772,
+    "market_decline": 0.16796805963825576,
+    "duration_days": 30,
+    "sectors_affected": [
+      "Materials",
+      "Financial",
+      "Energy",
+      "Consumer Discretionary",
+      "Industrials"
+    ],
+    "client_impact_count": 82,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT046",
+    "event_type": "market_volatility",
+    "date": "2024-12-19",
+    "severity": "Low",
+    "vix_level": 29.09165112150878,
+    "market_decline": 0.24119027863403358,
+    "duration_days": 19,
+    "sectors_affected": [
+      "Consumer Discretionary",
+      "Healthcare",
+      "Utilities",
+      "Materials",
+      "Technology"
+    ],
+    "client_impact_count": 245,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT047",
+    "event_type": "market_volatility",
+    "date": "2025-03-24",
+    "severity": "Low",
+    "vix_level": 23.247180798886482,
+    "market_decline": 0.09961188541153024,
+    "duration_days": 12,
+    "sectors_affected": [
+      "Utilities",
+      "Financial",
+      "Industrials",
+      "Real Estate",
+      "Consumer Discretionary",
+      "Energy"
+    ],
+    "client_impact_count": 372,
+    "advisor_actions_required": false,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT048",
+    "event_type": "market_volatility",
+    "date": "2025-05-20",
+    "severity": "High",
+    "vix_level": 18.41102927034269,
+    "market_decline": 0.21811435793569392,
+    "duration_days": 17,
+    "sectors_affected": [
+      "Healthcare",
+      "Materials",
+      "Utilities",
+      "Industrials"
+    ],
+    "client_impact_count": 496,
+    "advisor_actions_required": false,
+    "communication_sent": true
+  },
+  {
+    "scenario_id": "MKT049",
+    "event_type": "market_volatility",
+    "date": "2025-06-21",
+    "severity": "Extreme",
+    "vix_level": 37.90516380777984,
+    "market_decline": 0.19122528854897206,
+    "duration_days": 10,
+    "sectors_affected": [
+      "Energy",
+      "Healthcare"
+    ],
+    "client_impact_count": 563,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "MKT050",
+    "event_type": "market_volatility",
+    "date": "2025-04-20",
+    "severity": "Low",
+    "vix_level": 26.881286622977886,
+    "market_decline": 0.03758680917035437,
+    "duration_days": 22,
+    "sectors_affected": [
+      "Materials",
+      "Real Estate",
+      "Industrials",
+      "Technology",
+      "Consumer Discretionary"
+    ],
+    "client_impact_count": 181,
+    "advisor_actions_required": true,
+    "communication_sent": false
+  },
+  {
+    "scenario_id": "REG001",
+    "event_type": "regulatory_change",
+    "date": "2024-08-04",
+    "regulation": "Reporting Requirements",
+    "impact_level": "Low",
+    "compliance_deadline": "2025-10-17",
+    "affected_accounts": 668,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG002",
+    "event_type": "regulatory_change",
+    "date": "2024-07-27",
+    "regulation": "SEC Best Interest",
+    "impact_level": "Low",
+    "compliance_deadline": "2026-06-21",
+    "affected_accounts": 850,
+    "training_required": false,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG003",
+    "event_type": "regulatory_change",
+    "date": "2025-03-23",
+    "regulation": "Tax Law Changes",
+    "impact_level": "Medium",
+    "compliance_deadline": "2025-12-05",
+    "affected_accounts": 237,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG004",
+    "event_type": "regulatory_change",
+    "date": "2025-08-07",
+    "regulation": "State Regulations",
+    "impact_level": "Low",
+    "compliance_deadline": "2026-02-15",
+    "affected_accounts": 651,
+    "training_required": true,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG005",
+    "event_type": "regulatory_change",
+    "date": "2024-07-18",
+    "regulation": "DOL Fiduciary Rule",
+    "impact_level": "Low",
+    "compliance_deadline": "2026-03-30",
+    "affected_accounts": 146,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG006",
+    "event_type": "regulatory_change",
+    "date": "2023-12-06",
+    "regulation": "DOL Fiduciary Rule",
+    "impact_level": "Low",
+    "compliance_deadline": "2025-09-16",
+    "affected_accounts": 615,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG007",
+    "event_type": "regulatory_change",
+    "date": "2023-10-20",
+    "regulation": "SEC Best Interest",
+    "impact_level": "Medium",
+    "compliance_deadline": "2025-09-06",
+    "affected_accounts": 363,
+    "training_required": false,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG008",
+    "event_type": "regulatory_change",
+    "date": "2023-11-23",
+    "regulation": "SEC Best Interest",
+    "impact_level": "High",
+    "compliance_deadline": "2025-09-13",
+    "affected_accounts": 630,
+    "training_required": false,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG009",
+    "event_type": "regulatory_change",
+    "date": "2024-09-16",
+    "regulation": "SEC Best Interest",
+    "impact_level": "Low",
+    "compliance_deadline": "2025-09-22",
+    "affected_accounts": 997,
+    "training_required": false,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG010",
+    "event_type": "regulatory_change",
+    "date": "2023-12-25",
+    "regulation": "SEC Best Interest",
+    "impact_level": "Low",
+    "compliance_deadline": "2026-06-24",
+    "affected_accounts": 276,
+    "training_required": false,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG011",
+    "event_type": "regulatory_change",
+    "date": "2024-02-05",
+    "regulation": "Reporting Requirements",
+    "impact_level": "Low",
+    "compliance_deadline": "2025-11-26",
+    "affected_accounts": 232,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG012",
+    "event_type": "regulatory_change",
+    "date": "2024-04-03",
+    "regulation": "SEC Best Interest",
+    "impact_level": "High",
+    "compliance_deadline": "2025-09-09",
+    "affected_accounts": 261,
+    "training_required": false,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG013",
+    "event_type": "regulatory_change",
+    "date": "2024-08-08",
+    "regulation": "Tax Law Changes",
+    "impact_level": "Medium",
+    "compliance_deadline": "2025-12-16",
+    "affected_accounts": 364,
+    "training_required": false,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG014",
+    "event_type": "regulatory_change",
+    "date": "2024-03-20",
+    "regulation": "Reporting Requirements",
+    "impact_level": "High",
+    "compliance_deadline": "2026-03-19",
+    "affected_accounts": 558,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG015",
+    "event_type": "regulatory_change",
+    "date": "2024-10-29",
+    "regulation": "SEC Best Interest",
+    "impact_level": "Low",
+    "compliance_deadline": "2026-01-29",
+    "affected_accounts": 722,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG016",
+    "event_type": "regulatory_change",
+    "date": "2023-12-25",
+    "regulation": "State Regulations",
+    "impact_level": "Low",
+    "compliance_deadline": "2025-09-01",
+    "affected_accounts": 185,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG017",
+    "event_type": "regulatory_change",
+    "date": "2025-05-29",
+    "regulation": "Tax Law Changes",
+    "impact_level": "High",
+    "compliance_deadline": "2026-03-03",
+    "affected_accounts": 312,
+    "training_required": true,
+    "system_changes_needed": true
+  },
+  {
+    "scenario_id": "REG018",
+    "event_type": "regulatory_change",
+    "date": "2024-08-15",
+    "regulation": "DOL Fiduciary Rule",
+    "impact_level": "Medium",
+    "compliance_deadline": "2025-12-21",
+    "affected_accounts": 180,
+    "training_required": true,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG019",
+    "event_type": "regulatory_change",
+    "date": "2023-09-23",
+    "regulation": "State Regulations",
+    "impact_level": "Medium",
+    "compliance_deadline": "2025-10-24",
+    "affected_accounts": 217,
+    "training_required": false,
+    "system_changes_needed": false
+  },
+  {
+    "scenario_id": "REG020",
+    "event_type": "regulatory_change",
+    "date": "2023-10-11",
+    "regulation": "SEC Best Interest",
+    "impact_level": "High",
+    "compliance_deadline": "2026-01-16",
+    "affected_accounts": 566,
+    "training_required": false,
+    "system_changes_needed": false
+  }
+]

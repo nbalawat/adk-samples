@@ -1,3 +1,4 @@
-from .agent import agent
+# Commercial banking onboarding package
+# Import only when needed to avoid dependency issues
 
-__all__ = ["agent"]
+__version__ = "1.0.0"

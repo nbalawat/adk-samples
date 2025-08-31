@@ -195,3 +195,7 @@ python/agents/personalized-shopping/personalized_shopping/shared_libraries/searc
 .terraform/
 *.tfstate
 *.tfstate.backup
+
+# Service Account Keys (sensitive)
+python/agents/deploy-dev-sa.json
+**/service-account-key.json
