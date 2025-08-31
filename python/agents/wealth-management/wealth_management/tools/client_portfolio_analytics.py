@@ -43,7 +43,7 @@ class FinancialCalculator:
 def analyze_market_impact_across_clients(
     advisor_id: Optional[str] = None,
     time_period: str = "3M",
-    tool_context: ToolContext = None
+    tool_context: Optional[ToolContext] = None
 ) -> dict:
     """
     Analyze how recent market movements have impacted all clients under management.
@@ -196,8 +196,8 @@ def analyze_market_impact_across_clients(
 
 def identify_enhancement_opportunities(
     focus_area: str = "all",  # "performance", "risk", "allocation", "tax", "all"
-    minimum_aum: float = 100000,
-    tool_context: ToolContext = None
+    minimum_aum: float = 100000.0,
+    tool_context: Optional[ToolContext] = None
 ) -> dict:
     """
     Identify opportunities to enhance client portfolios and relationships.
@@ -384,7 +384,7 @@ def identify_enhancement_opportunities(
 def analyze_client_help_desk_requests(
     time_period: str = "3M",
     request_category: str = "all",
-    tool_context: ToolContext = None
+    tool_context: Optional[ToolContext] = None
 ) -> dict:
     """
     Analyze client help desk requests to identify patterns and issues.
@@ -497,7 +497,7 @@ def analyze_client_help_desk_requests(
 def generate_client_outreach_recommendations(
     outreach_type: str = "all",  # "proactive", "reactive", "retention", "all"
     priority_level: str = "medium",  # "low", "medium", "high", "all"
-    tool_context: ToolContext = None
+    tool_context: Optional[ToolContext] = None
 ) -> dict:
     """
     Generate personalized outreach recommendations based on client interactions and portfolio status.
@@ -665,7 +665,7 @@ def generate_client_outreach_recommendations(
 def suggest_personalized_materials(
     client_id: Optional[str] = None,
     content_type: str = "all",  # "educational", "market_updates", "planning_tools", "all"
-    tool_context: ToolContext = None
+    tool_context: Optional[ToolContext] = None
 ) -> dict:
     """
     Suggest personalized materials and resources for clients based on their profile and current needs.
