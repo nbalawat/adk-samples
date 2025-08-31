@@ -209,6 +209,40 @@ Test 2-3 workflows from each category above.
 
 ---
 
+## 🆕 NEW: Client Portfolio Analytics (Cross-Client Management)
+
+### Cross-Client Market Impact Analysis
+- *"How has the recent market volatility impacted all my clients?"*
+- *"Show me which clients have significant portfolio losses"*
+- *"Analyze market impact across my client base for the last 3 months"*
+- *"Which clients need immediate attention due to market conditions?"*
+
+### Enhancement Opportunities Identification
+- *"What opportunities exist to enhance my client relationships?"*
+- *"Identify portfolio optimization opportunities across my client base"*
+- *"Show me tax efficiency opportunities for all clients"*
+- *"Find revenue expansion opportunities in my book of business"*
+
+### Help Desk Analytics
+- *"What are the common issues my clients are contacting us about?"*
+- *"Analyze help desk trends and suggest proactive solutions"*
+- *"Show me support request patterns for the last quarter"*
+- *"What trending issues should I be aware of?"*
+
+### Client Outreach Recommendations
+- *"Who should I reach out to this week and why?"*
+- *"Generate my client outreach plan for the month"*
+- *"Which clients need immediate calls based on portfolio performance?"*
+- *"Create personalized outreach recommendations for all clients"*
+
+### Personalized Content Suggestions
+- *"What educational materials would be most relevant for each client?"*
+- *"Suggest personalized content for client WM100004"*
+- *"What materials should I share during this market environment?"*
+- *"Create content recommendations for my high-net-worth clients"*
+
+---
+
 ## 💡 Pro Tips
 
 1. **Start Simple**: Use TEST001, DEMO001, or CLIENT001 for basic tests
@@ -216,5 +250,6 @@ Test 2-3 workflows from each category above.
 3. **Combine Workflows**: Ask for multiple services in one query
 4. **Test Edge Cases**: Try unusual scenarios or large requests
 5. **Check Memory**: See if the agent remembers previous account discussions
+6. **NEW - Cross-Client Analytics**: Test portfolio-wide insights and client management queries
 
-**🚀 Happy Testing! Try these questions to explore all 33 workflows.**
+**🚀 Happy Testing! Try these questions to explore all 33 workflows + client analytics!**

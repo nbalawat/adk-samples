@@ -15,18 +15,14 @@ RUN pip install -r requirements.txt
 # Copy application code and all supporting files
 COPY . .
 
-# Copy service account key
-COPY service-account-key.json /app/service-account-key.json
-
 # Remove unnecessary files
 RUN rm -rf .git deployment/ .pytest_cache/ __pycache__/ *.pyc
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 ENV GOOGLE_GENAI_USE_VERTEXAI=1
-ENV GOOGLE_APPLICATION_CREDENTIALS=/app/service-account-key.json
 ENV GOOGLE_CLOUD_PROJECT=agentic-experiments
-ENV VERTEX_AI_LOCATION=us-central1
+ENV GOOGLE_CLOUD_LOCATION=us-central1
 
 # Expose port
 EXPOSE 8080

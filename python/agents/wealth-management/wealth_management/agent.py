@@ -62,6 +62,13 @@ from .tools.client_experience_tools import (
     orchestrate_client_journey,
     manage_client_events
 )
+from .tools.client_portfolio_analytics import (
+    analyze_market_impact_across_clients,
+    identify_enhancement_opportunities,
+    analyze_client_help_desk_requests,
+    generate_client_outreach_recommendations,
+    suggest_personalized_materials
+)
 
 MODEL = "gemini-2.5-pro"
 
@@ -134,5 +141,12 @@ root_agent = Agent(
         measure_client_satisfaction,
         orchestrate_client_journey,
         manage_client_events,
+        
+        # Client portfolio analytics tools
+        analyze_market_impact_across_clients,
+        identify_enhancement_opportunities,
+        analyze_client_help_desk_requests,
+        generate_client_outreach_recommendations,
+        suggest_personalized_materials,
     ]
 )
