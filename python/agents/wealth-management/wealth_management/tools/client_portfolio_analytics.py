@@ -10,8 +10,34 @@ from google.adk.tools import ToolContext
 from ..mock_apis.custodian_api import MockCustodianAPI
 from ..mock_apis.market_data_api import MockMarketDataAPI  
 from ..mock_apis.crm_api import MockCRMAPI
-from ..shared_libraries.portfolio_analyzer import PortfolioAnalyzer
-from ..shared_libraries.financial_calculator import FinancialCalculator
+
+# Simple utility classes for analytics
+class PortfolioAnalyzer:
+    """Simple portfolio analysis utilities"""
+    
+    @staticmethod
+    def calculate_return(initial_value: float, current_value: float) -> float:
+        if initial_value == 0:
+            return 0.0
+        return ((current_value - initial_value) / initial_value) * 100
+    
+    @staticmethod
+    def calculate_volatility(returns: List[float]) -> float:
+        if len(returns) < 2:
+            return 0.0
+        import statistics
+        return statistics.stdev(returns)
+
+class FinancialCalculator:
+    """Simple financial calculation utilities"""
+    
+    @staticmethod
+    def present_value(future_value: float, rate: float, periods: float) -> float:
+        return future_value / ((1 + rate) ** periods)
+    
+    @staticmethod
+    def future_value(present_value: float, rate: float, periods: float) -> float:
+        return present_value * ((1 + rate) ** periods)
 
 
 def analyze_market_impact_across_clients(
