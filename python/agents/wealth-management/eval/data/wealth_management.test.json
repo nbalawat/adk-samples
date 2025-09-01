@@ -1,0 +1,229 @@
+[
+  {
+    "id": "portfolio_001",
+    "name": "Portfolio Performance Analysis",
+    "description": "Test portfolio performance calculation and analysis workflow",
+    "workflow_type": "portfolio_management",
+    "input": {
+      "request": "Analyze the performance of account TEST001 for the last quarter. Provide performance metrics, risk assessment, and compare against benchmarks.",
+      "account_id": "TEST001",
+      "time_period": "3M",
+      "benchmark": "S&P 500"
+    },
+    "expected_output": {
+      "performance_metrics": {
+        "total_return": "required",
+        "ytd_return": "required",
+        "volatility": "required",
+        "sharpe_ratio": "required"
+      },
+      "risk_metrics": {
+        "var_95": "required",
+        "beta": "required",
+        "max_drawdown": "required"
+      },
+      "benchmark_comparison": {
+        "relative_performance": "required",
+        "tracking_error": "required"
+      },
+      "holdings_analysis": "required"
+    }
+  },
+  {
+    "id": "portfolio_002", 
+    "name": "Portfolio Rebalancing Recommendation",
+    "description": "Test portfolio rebalancing workflow with risk tolerance considerations",
+    "workflow_type": "portfolio_management",
+    "input": {
+      "request": "Review account DEMO001 for rebalancing opportunities. The client has moderate risk tolerance and wants to maintain 60/40 equity/bond allocation.",
+      "account_id": "DEMO001",
+      "target_allocation": {
+        "equity": 0.60,
+        "bonds": 0.40
+      },
+      "risk_tolerance": "moderate"
+    },
+    "expected_output": {
+      "current_allocation": "required",
+      "deviation_from_target": "required",
+      "rebalancing_recommendations": {
+        "trades_required": "required",
+        "expected_impact": "required"
+      },
+      "risk_analysis": "required"
+    }
+  },
+  {
+    "id": "portfolio_003",
+    "name": "Multi-Account Portfolio Summary",
+    "description": "Test consolidated portfolio view across multiple accounts",
+    "workflow_type": "portfolio_management", 
+    "input": {
+      "request": "Provide a consolidated portfolio summary for client with accounts CLIENT001, CLIENT002, and CLIENT003. Include asset allocation, performance, and risk metrics.",
+      "account_ids": ["CLIENT001", "CLIENT002", "CLIENT003"],
+      "consolidation_level": "client"
+    },
+    "expected_output": {
+      "consolidated_value": "required",
+      "asset_allocation": "required",
+      "performance_summary": "required",
+      "risk_metrics": "required",
+      "account_breakdown": "required"
+    }
+  },
+  {
+    "id": "analytics_001",
+    "name": "Cross-Client Market Impact Analysis",
+    "description": "Test analysis of market impact across all managed clients",
+    "workflow_type": "client_analytics",
+    "input": {
+      "request": "Analyze how recent market volatility has impacted all my clients over the past month. Identify clients most affected and those with opportunities.",
+      "time_period": "1M",
+      "analysis_type": "market_impact"
+    },
+    "expected_output": {
+      "overall_impact": "required",
+      "client_rankings": "required",
+      "most_affected_clients": "required",
+      "opportunity_clients": "required",
+      "market_correlation_analysis": "required"
+    }
+  },
+  {
+    "id": "analytics_002",
+    "name": "Client Enhancement Opportunities",
+    "description": "Test identification of portfolio enhancement opportunities across clients",
+    "workflow_type": "client_analytics",
+    "input": {
+      "request": "Identify enhancement opportunities across all my clients with minimum $100,000 AUM. Focus on tax optimization, risk reduction, and yield enhancement.",
+      "minimum_aum": 100000,
+      "focus_areas": ["tax_optimization", "risk_reduction", "yield_enhancement"]
+    },
+    "expected_output": {
+      "eligible_clients": "required",
+      "enhancement_categories": {
+        "tax_loss_harvesting": "required",
+        "asset_location_optimization": "required", 
+        "yield_enhancement": "required",
+        "risk_reduction": "required"
+      },
+      "prioritized_recommendations": "required"
+    }
+  },
+  {
+    "id": "analytics_003",
+    "name": "Client Outreach Recommendations",
+    "description": "Test generation of personalized client outreach recommendations",
+    "workflow_type": "client_analytics",
+    "input": {
+      "request": "Generate personalized outreach recommendations for all clients based on recent market events, portfolio performance, and client interaction history.",
+      "outreach_triggers": ["performance_alerts", "market_events", "rebalancing_needs"]
+    },
+    "expected_output": {
+      "outreach_recommendations": "required",
+      "prioritization": "required",
+      "personalized_talking_points": "required",
+      "suggested_materials": "required"
+    }
+  },
+  {
+    "id": "risk_001",
+    "name": "Risk Tolerance Assessment",
+    "description": "Test risk tolerance assessment and portfolio alignment",
+    "workflow_type": "risk_management",
+    "input": {
+      "request": "Assess risk tolerance for account WM100001 and evaluate if current portfolio alignment is appropriate. Provide recommendations if needed.",
+      "account_id": "WM100001"
+    },
+    "expected_output": {
+      "risk_tolerance_score": "required",
+      "portfolio_risk_level": "required",
+      "alignment_assessment": "required",
+      "recommendations": "required"
+    }
+  },
+  {
+    "id": "risk_002",
+    "name": "Portfolio Risk Analysis",
+    "description": "Test comprehensive portfolio risk analysis",
+    "workflow_type": "risk_management",
+    "input": {
+      "request": "Conduct comprehensive risk analysis for account WM100005 including VaR, stress testing, and scenario analysis.",
+      "account_id": "WM100005",
+      "analysis_types": ["var", "stress_test", "scenario_analysis"]
+    },
+    "expected_output": {
+      "value_at_risk": "required",
+      "stress_test_results": "required",
+      "scenario_analysis": "required",
+      "risk_recommendations": "required"
+    }
+  },
+  {
+    "id": "compliance_001",
+    "name": "Fiduciary Compliance Assessment",
+    "description": "Test fiduciary duty compliance evaluation",
+    "workflow_type": "compliance_reporting",
+    "input": {
+      "request": "Evaluate fiduciary compliance for all advisory relationships. Check for conflicts of interest, fee transparency, and suitability.",
+      "scope": "all_advisory_accounts"
+    },
+    "expected_output": {
+      "compliance_score": "required",
+      "conflict_checks": "required",
+      "fee_transparency": "required",
+      "suitability_analysis": "required",
+      "compliance_issues": "required"
+    }
+  },
+  {
+    "id": "compliance_002",
+    "name": "Regulatory Reporting",
+    "description": "Test regulatory reporting generation",
+    "workflow_type": "compliance_reporting",
+    "input": {
+      "request": "Generate quarterly regulatory reports including Form ADV updates, client activity summaries, and compliance metrics.",
+      "reporting_period": "Q3_2024",
+      "report_types": ["adv_updates", "client_activity", "compliance_metrics"]
+    },
+    "expected_output": {
+      "adv_updates": "required",
+      "client_activity_summary": "required", 
+      "compliance_metrics": "required",
+      "regulatory_deadlines": "required"
+    }
+  },
+  {
+    "id": "market_001",
+    "name": "Market Volatility Analysis",
+    "description": "Test market volatility analysis and client impact assessment",
+    "workflow_type": "market_intelligence",
+    "input": {
+      "request": "Analyze current market volatility levels and assess potential impact on client portfolios. Provide defensive recommendations.",
+      "volatility_metrics": ["vix", "realized_vol", "correlation_breakdown"]
+    },
+    "expected_output": {
+      "volatility_assessment": "required",
+      "client_impact_analysis": "required",
+      "defensive_recommendations": "required",
+      "risk_warnings": "required"
+    }
+  },
+  {
+    "id": "market_002",
+    "name": "Market Commentary Generation",
+    "description": "Test generation of market commentary and client communication",
+    "workflow_type": "market_intelligence",
+    "input": {
+      "request": "Generate weekly market commentary focusing on Fed policy, earnings season, and sector rotation. Include client-specific implications.",
+      "topics": ["fed_policy", "earnings_season", "sector_rotation"],
+      "communication_type": "weekly_commentary"
+    },
+    "expected_output": {
+      "market_commentary": "required",
+      "key_themes": "required",
+      "client_implications": "required",
+      "actionable_insights": "required"
+    }
+  }
+]

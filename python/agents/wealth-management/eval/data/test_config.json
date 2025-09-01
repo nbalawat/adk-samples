@@ -1,0 +1,102 @@
+{
+  "test_config": {
+    "timeout_seconds": 240,
+    "max_retries": 3,
+    "parallel_execution": false,
+    "output_format": "detailed",
+    "enable_logging": true
+  },
+  "criteria": {
+    "tool_trajectory_avg_score": {
+      "weight": 0.3
+    },
+    "response_evaluation_score": {
+      "weight": 0.4
+    },
+    "response_match_score": {
+      "weight": 0.2
+    },
+    "safety_v1": {
+      "weight": 0.1
+    }
+  },
+  "scoring": {
+    "excellent": {
+      "min_score": 90,
+      "description": "Outstanding performance across all criteria"
+    },
+    "good": {
+      "min_score": 80,
+      "description": "Strong performance with minor gaps"
+    },
+    "acceptable": {
+      "min_score": 70,
+      "description": "Meets basic requirements"
+    },
+    "needs_improvement": {
+      "min_score": 0,
+      "description": "Significant gaps requiring attention"
+    }
+  },
+  "workflow_specific_tests": {
+    "portfolio_management": {
+      "tests": ["portfolio_001", "portfolio_002", "portfolio_003"],
+      "focus_areas": ["position_analysis", "performance_calculation", "risk_assessment"],
+      "required_tools": ["get_portfolio_summary", "get_position_details", "calculate_performance_metrics"]
+    },
+    "client_analytics": {
+      "tests": ["analytics_001", "analytics_002", "analytics_003"],
+      "focus_areas": ["cross_client_analysis", "opportunity_identification", "outreach_recommendations"],
+      "required_tools": ["analyze_market_impact_across_clients", "identify_enhancement_opportunities", "generate_client_outreach_recommendations"]
+    },
+    "risk_management": {
+      "tests": ["risk_001", "risk_002"],
+      "focus_areas": ["risk_tolerance_assessment", "portfolio_risk_analysis", "rebalancing_recommendations"],
+      "required_tools": ["assess_risk_tolerance", "analyze_portfolio_risk", "generate_rebalancing_recommendation"]
+    },
+    "compliance_reporting": {
+      "tests": ["compliance_001", "compliance_002"],
+      "focus_areas": ["fiduciary_compliance", "regulatory_reporting", "aml_screening"],
+      "required_tools": ["assess_fiduciary_compliance", "generate_regulatory_report", "conduct_aml_screening"]
+    },
+    "market_intelligence": {
+      "tests": ["market_001", "market_002"],
+      "focus_areas": ["volatility_analysis", "market_commentary", "impact_assessment"],
+      "required_tools": ["analyze_market_volatility", "generate_market_commentary", "assess_portfolio_impact"]
+    }
+  },
+  "client_data_validation": {
+    "required_fields": {
+      "account_info": ["account_id", "account_type", "account_value", "cash_balance"],
+      "positions": ["symbol", "quantity", "market_value", "cost_basis"],
+      "client_profile": ["risk_tolerance", "investment_objectives", "time_horizon"]
+    },
+    "data_formats": {
+      "account_id": "^(TEST|DEMO|CLIENT|WM)\\d+$",
+      "currency": "^\\$[\\d,]+\\.\\d{2}$",
+      "percentage": "^\\d+\\.\\d{1,2}%$"
+    },
+    "business_rules": {
+      "min_portfolio_value": 1000,
+      "max_position_concentration": 50,
+      "valid_risk_levels": ["conservative", "moderate", "aggressive", "very_aggressive"]
+    }
+  },
+  "test_scenarios": {
+    "market_stress": {
+      "description": "Test agent responses during market volatility",
+      "market_conditions": "high_volatility",
+      "expected_behaviors": ["risk_warnings", "comfort_messaging", "defensive_recommendations"]
+    },
+    "client_lifecycle": {
+      "description": "Test complete client journey from onboarding to ongoing management",
+      "stages": ["onboarding", "planning", "monitoring", "rebalancing", "reporting"],
+      "success_criteria": ["workflow_completion", "data_consistency", "appropriate_recommendations"]
+    },
+    "regulatory_scenarios": {
+      "description": "Test compliance and regulatory requirement handling",
+      "scenarios": ["fiduciary_duty", "disclosure_requirements", "suitability_assessment"],
+      "compliance_requirements": ["proper_disclosures", "risk_warnings", "documentation"]
+    }
+  }
+}

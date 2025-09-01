@@ -1,0 +1,27 @@
+[
+  {
+    "id": "portfolio_test",
+    "name": "Portfolio Analysis Test", 
+    "workflow_type": "portfolio_management",
+    "input": {
+      "request": "Analyze portfolio performance for TEST001",
+      "account_id": "TEST001"
+    },
+    "expected_output": {
+      "performance_metrics": "required",
+      "risk_assessment": "required" 
+    }
+  },
+  {
+    "id": "client_analytics_test",
+    "name": "Client Analytics Test",
+    "workflow_type": "client_analytics", 
+    "input": {
+      "request": "Analyze market impact across all clients"
+    },
+    "expected_output": {
+      "client_rankings": "required",
+      "impact_analysis": "required"
+    }
+  }
+]

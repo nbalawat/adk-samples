@@ -1,0 +1,32 @@
+[
+  {
+    "id": "portfolio_analysis_001",
+    "query": "Analyze the performance of account TEST001 for the last quarter",
+    "expected_tool_use": ["get_portfolio_summary", "calculate_performance_metrics"],
+    "reference": "Portfolio analysis should include performance metrics, risk assessment, and benchmark comparison"
+  },
+  {
+    "id": "client_impact_002", 
+    "query": "How has the recent market volatility affected all my clients?",
+    "expected_tool_use": ["analyze_market_impact_across_clients"],
+    "reference": "Analysis should identify most affected clients and provide actionable recommendations"
+  },
+  {
+    "id": "risk_assessment_003",
+    "query": "Conduct risk assessment for account WM100005 including VaR and stress testing",
+    "expected_tool_use": ["analyze_portfolio_risk"],
+    "reference": "Comprehensive risk report with VaR calculations, stress test results, and recommendations"
+  },
+  {
+    "id": "compliance_check_004",
+    "query": "Review fiduciary compliance for all advisory accounts",
+    "expected_tool_use": ["assess_fiduciary_compliance"],
+    "reference": "Compliance report covering conflicts of interest, fee transparency, and suitability"
+  },
+  {
+    "id": "market_commentary_005",
+    "query": "Generate weekly market commentary on Fed policy and earnings season",
+    "expected_tool_use": ["generate_market_commentary"],
+    "reference": "Professional market analysis with client-specific implications and actionable insights"
+  }
+]
